@@ -1,25 +1,4 @@
 
-# Surveillance System Controller.
-# Brandon Joffe
-# 2016
-# Copyright 2016, Brandon Joffe, All rights reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
-# Code used in this project included opensource software (Openface)
-# developed by Brandon Amos
-# Copyright 2015-2016 Carnegie Mellon University
-
 
 import time
 import argparse
@@ -147,10 +126,7 @@ class SurveillanceSystem(object):
         self.get_face_database_names() # Gets people in database for web client
 
         #//////////////////////////////////////////////////// Camera Examples ////////////////////////////////////////////////////
-        #self.cameras.append(Camera.IPCamera("testing/iphoneVideos/singleTest.m4v","detect_recognise_track",False)) # Video Example - uncomment and run code
-        # self.cameras.append(Camera.IPCamera("http://192.168.1.33/video.mjpg","detect_recognise_track",False))
-        
-        # processing frame threads 
+     
         for i, cam in enumerate(self.cameras):       
           thread = threading.Thread(name='frame_process_thread_' + str(i),target=self.process_frame,args=(cam,))
           thread.daemon = False
@@ -410,16 +386,7 @@ class SurveillanceSystem(object):
               #############################################################################################################################################################################
 
              elif camera.cameraFunction == "detect_recognise_track":
-                # This approach incorporates background subtraction to perform person tracking 
-                # and is the most efficient out of the all proccesing funcions above. When
-                # a face is detected in a region a Tracker object it generated, and is updated
-                # every frame by comparing the last known region of the person, to new regions
-                # produced by the motionDetector object. Every update of the tracker a detected 
-                # face is compared to the person's face of whom is being tracked to ensure the tracker
-                # is still tracking the correct person. This is acheived by comparing the prediction
-                # and the the l2 distance between their embeddings (128 measurements that represent the face).
-                # If a tracker does not overlap with any of the regions produced by the motionDetector object
-                # for some time the Tracker is deleted. 
+               
 
                 training_blocker = self.trainingEvent.wait()  # Wait if classifier is being trained 
 

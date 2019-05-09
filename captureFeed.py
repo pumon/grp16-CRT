@@ -1,11 +1,3 @@
-#!/usr/bin/python
-#
-#
-# side tool to capture a feed with openCV and get an analysis of it
-# Mathieu Duperre
-# 2017
-#
-#
 
 import numpy as np
 import cv2
