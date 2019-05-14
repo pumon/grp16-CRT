@@ -2639,3 +2639,625 @@
 2019-05-14 09:36:41,038 - SurveillanceWebServer - INFO - FPS: 17.7639940255 14.9373737057
 2019-05-14 09:36:42,678 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 9, 'prediction': 'unknown', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 11:36:08AM', 'identity': 'person20190514093450787'}
 2019-05-14 09:36:42,695 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 09:36:42] "GET /socket.io/?EIO=3&transport=polling&t=1557826600689-21&sid=aa75cae6497d46aea3db2d0433ee53aa HTTP/1.1" 200 -
+2019-05-14 11:08:28,482 - werkzeug - WARNING - WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+2019-05-14 11:08:28,482 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-05-14 11:08:31,777 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:08:31] "GET / HTTP/1.1" 200 -
+2019-05-14 11:08:31,900 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:08:31] "GET /favicon.ico HTTP/1.1" 404 -
+2019-05-14 11:08:36,983 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:08:36] "POST / HTTP/1.1" 302 -
+2019-05-14 11:08:37,019 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:08:37] "GET /home HTTP/1.1" 200 -
+2019-05-14 11:08:37,200 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:08:37] "GET /socket.io/?EIO=3&transport=polling&t=1557832117198-0 HTTP/1.1" 200 -
+2019-05-14 11:08:37,241 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:08:37] "POST /socket.io/?EIO=3&transport=polling&t=1557832117238-1&sid=add71ac17b6c4cbda09d262a8cf86856 HTTP/1.1" 200 -
+2019-05-14 11:08:37,241 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:08:37,242 - SurveillanceWebServer - INFO - Starting alarmStateThread
+2019-05-14 11:08:37,243 - SurveillanceWebServer - INFO - Starting facesUpdateThread
+2019-05-14 11:08:37,244 - SurveillanceWebServer - INFO - Starting monitoringThread
+2019-05-14 11:08:37,246 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:08:37] "GET /socket.io/?EIO=3&transport=polling&t=1557832117239-2&sid=add71ac17b6c4cbda09d262a8cf86856 HTTP/1.1" 200 -
+2019-05-14 11:08:37,254 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:08:37] "GET /socket.io/?EIO=3&transport=polling&t=1557832117249-3&sid=add71ac17b6c4cbda09d262a8cf86856 HTTP/1.1" 200 -
+2019-05-14 11:08:39,377 - SurveillanceWebServer - INFO - CPU Load: 0.2
+2019-05-14 11:08:39,378 - SurveillanceWebServer - INFO - System Memory Usage: 29.5
+2019-05-14 11:08:39,382 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:08:39] "GET /socket.io/?EIO=3&transport=polling&t=1557832117258-4&sid=add71ac17b6c4cbda09d262a8cf86856 HTTP/1.1" 200 -
+2019-05-14 11:08:44,507 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-14 11:08:44,508 - SurveillanceWebServer - INFO - System Memory Usage: 29.5
+2019-05-14 11:08:49,637 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-14 11:08:49,638 - SurveillanceWebServer - INFO - System Memory Usage: 29.5
+2019-05-14 11:08:54,767 - SurveillanceWebServer - INFO - CPU Load: 0.4
+2019-05-14 11:08:54,768 - SurveillanceWebServer - INFO - System Memory Usage: 29.5
+2019-05-14 11:08:59,897 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-14 11:08:59,898 - SurveillanceWebServer - INFO - System Memory Usage: 29.5
+2019-05-14 11:09:02,245 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:09:02] "POST /socket.io/?EIO=3&transport=polling&t=1557832142240-5&sid=add71ac17b6c4cbda09d262a8cf86856 HTTP/1.1" 200 -
+2019-05-14 11:09:05,027 - SurveillanceWebServer - INFO - CPU Load: 0.4
+2019-05-14 11:09:05,028 - SurveillanceWebServer - INFO - System Memory Usage: 29.5
+2019-05-14 11:09:10,157 - SurveillanceWebServer - INFO - CPU Load: 0.0
+2019-05-14 11:09:10,157 - SurveillanceWebServer - INFO - System Memory Usage: 29.5
+2019-05-14 11:09:15,286 - SurveillanceWebServer - INFO - CPU Load: 0.9
+2019-05-14 11:09:15,287 - SurveillanceWebServer - INFO - System Memory Usage: 29.5
+2019-05-14 11:09:20,415 - SurveillanceWebServer - INFO - CPU Load: 0.2
+2019-05-14 11:09:20,416 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:09:25,544 - SurveillanceWebServer - INFO - CPU Load: 1.1
+2019-05-14 11:09:25,545 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:09:30,674 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-14 11:09:30,675 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:09:35,804 - SurveillanceWebServer - INFO - CPU Load: 3.8
+2019-05-14 11:09:35,805 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:09:40,934 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-14 11:09:40,935 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:09:46,064 - SurveillanceWebServer - INFO - CPU Load: 1.9
+2019-05-14 11:09:46,065 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:09:51,194 - SurveillanceWebServer - INFO - CPU Load: 0.2
+2019-05-14 11:09:51,195 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:09:56,324 - SurveillanceWebServer - INFO - CPU Load: 1.1
+2019-05-14 11:09:56,325 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:10:01,454 - SurveillanceWebServer - INFO - CPU Load: 0.9
+2019-05-14 11:10:01,455 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:10:02,247 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:10:02] "POST /socket.io/?EIO=3&transport=polling&t=1557832202242-6&sid=add71ac17b6c4cbda09d262a8cf86856 HTTP/1.1" 400 -
+2019-05-14 11:10:03,419 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:10:03] "GET /socket.io/?EIO=3&transport=polling&t=1557832203414-7 HTTP/1.1" 200 -
+2019-05-14 11:10:03,428 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:10:03] "POST /socket.io/?EIO=3&transport=polling&t=1557832203423-8&sid=13306212bb5748709ea10ed3c654e546 HTTP/1.1" 200 -
+2019-05-14 11:10:03,430 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:10:03,434 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-14 11:10:03,439 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:10:03] "GET /socket.io/?EIO=3&transport=polling&t=1557832203424-9&sid=13306212bb5748709ea10ed3c654e546 HTTP/1.1" 200 -
+2019-05-14 11:10:04,365 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:10:04] "GET /socket.io/?EIO=3&transport=polling&t=1557832203445-10&sid=13306212bb5748709ea10ed3c654e546 HTTP/1.1" 200 -
+2019-05-14 11:10:05,390 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:10:05] "GET /socket.io/?EIO=3&transport=polling&t=1557832204369-11&sid=13306212bb5748709ea10ed3c654e546 HTTP/1.1" 200 -
+2019-05-14 11:10:06,584 - SurveillanceWebServer - INFO - CPU Load: 0.0
+2019-05-14 11:10:06,586 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:10:06,616 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:10:06] "GET /socket.io/?EIO=3&transport=polling&t=1557832205394-12&sid=13306212bb5748709ea10ed3c654e546 HTTP/1.1" 200 -
+2019-05-14 11:10:11,715 - SurveillanceWebServer - INFO - CPU Load: 4.1
+2019-05-14 11:10:11,716 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:10:16,845 - SurveillanceWebServer - INFO - CPU Load: 1.6
+2019-05-14 11:10:16,846 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:10:21,975 - SurveillanceWebServer - INFO - CPU Load: 2.8
+2019-05-14 11:10:21,976 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:10:27,105 - SurveillanceWebServer - INFO - CPU Load: 2.2
+2019-05-14 11:10:27,106 - SurveillanceWebServer - INFO - System Memory Usage: 29.4
+2019-05-14 11:10:28,456 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:10:28] "POST /socket.io/?EIO=3&transport=polling&t=1557832228424-13&sid=13306212bb5748709ea10ed3c654e546 HTTP/1.1" 200 -
+2019-05-14 11:10:30,959 - SurveillanceWebServer - INFO - Addding a new camera with url: 
+2019-05-14 11:10:30,962 - SurveillanceWebServer - INFO - rtsp://172.20.10.14:8080/h264_pcm.sdp
+2019-05-14 11:10:30,962 - SurveillanceWebServer - INFO - false
+2019-05-14 11:10:30,966 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:10:30] "POST /add_camera HTTP/1.1" 200 -
+2019-05-14 11:10:31,060 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:10:31] "GET /video_streamer/0 HTTP/1.1" 200 -
+2019-05-14 11:10:32,234 - SurveillanceWebServer - INFO - CPU Load: 46.4
+2019-05-14 11:10:32,235 - SurveillanceWebServer - INFO - System Memory Usage: 31.2
+2019-05-14 11:10:35,238 - SurveillanceWebServer - INFO - FPS: 32.6589242958 10.1208038145
+2019-05-14 11:10:37,366 - SurveillanceWebServer - INFO - CPU Load: 44.3
+2019-05-14 11:10:37,367 - SurveillanceWebServer - INFO - System Memory Usage: 31.2
+2019-05-14 11:10:39,904 - SurveillanceWebServer - INFO - unknownconfidence: 50
+2019-05-14 11:10:39,905 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:10:39] "POST /create_alert HTTP/1.1" 200 -
+2019-05-14 11:10:40,368 - SurveillanceWebServer - INFO - FPS: 8.74110470191 17.2971974303
+2019-05-14 11:10:42,520 - SurveillanceWebServer - INFO - CPU Load: 36.3
+2019-05-14 11:10:42,520 - SurveillanceWebServer - INFO - System Memory Usage: 31.3
+2019-05-14 11:10:45,524 - SurveillanceWebServer - INFO - FPS: 34.5097066942 12.252675441
+2019-05-14 11:10:47,723 - SurveillanceWebServer - INFO - CPU Load: 45.4
+2019-05-14 11:10:47,723 - SurveillanceWebServer - INFO - System Memory Usage: 31.2
+2019-05-14 11:10:50,763 - SurveillanceWebServer - INFO - FPS: 30.0530152941 11.5237122896
+2019-05-14 11:10:52,933 - SurveillanceWebServer - INFO - CPU Load: 48.3
+2019-05-14 11:10:52,933 - SurveillanceWebServer - INFO - System Memory Usage: 31.5
+2019-05-14 11:10:55,936 - SurveillanceWebServer - INFO - FPS: 27.5915336838 12.4923499582
+2019-05-14 11:10:58,059 - SurveillanceWebServer - INFO - CPU Load: 44.7
+2019-05-14 11:10:58,059 - SurveillanceWebServer - INFO - System Memory Usage: 31.5
+2019-05-14 11:11:01,060 - SurveillanceWebServer - INFO - FPS: 28.6185684247 14.586914879
+2019-05-14 11:11:02,989 - SurveillanceWebServer - INFO - {'confidence': 59, 'thumbnailNum': 2, 'prediction': 'punith', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:11:01PM', 'identity': 'person20190514111100585'}
+2019-05-14 11:11:03,184 - SurveillanceWebServer - INFO - CPU Load: 73.1
+2019-05-14 11:11:03,184 - SurveillanceWebServer - INFO - System Memory Usage: 31.9
+2019-05-14 11:11:06,188 - SurveillanceWebServer - INFO - FPS: 12.3982341039 30.6541564286
+2019-05-14 11:11:06,992 - SurveillanceWebServer - INFO - {'confidence': 75, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:11:05PM', 'identity': 'person20190514111100585'}
+2019-05-14 11:11:08,318 - SurveillanceWebServer - INFO - CPU Load: 76.7
+2019-05-14 11:11:08,318 - SurveillanceWebServer - INFO - System Memory Usage: 31.9
+2019-05-14 11:11:10,996 - SurveillanceWebServer - INFO - {'confidence': 57, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:11:10PM', 'identity': 'person20190514111100585'}
+2019-05-14 11:11:11,322 - SurveillanceWebServer - INFO - FPS: 33.0351199149 8.83159739257
+2019-05-14 11:11:13,446 - SurveillanceWebServer - INFO - CPU Load: 52.9
+2019-05-14 11:11:13,447 - SurveillanceWebServer - INFO - System Memory Usage: 31.5
+2019-05-14 11:11:15,000 - SurveillanceWebServer - INFO - {'confidence': 66, 'thumbnailNum': 3, 'prediction': 'unknown', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:11:11PM', 'identity': 'person20190514111100585'}
+2019-05-14 11:11:16,450 - SurveillanceWebServer - INFO - FPS: 26.0010290553 11.2807785056
+2019-05-14 11:11:18,575 - SurveillanceWebServer - INFO - CPU Load: 42.8
+2019-05-14 11:11:18,576 - SurveillanceWebServer - INFO - System Memory Usage: 31.6
+2019-05-14 11:11:19,007 - SurveillanceWebServer - INFO - {'confidence': 66, 'thumbnailNum': 3, 'prediction': 'unknown', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:11:11PM', 'identity': 'person20190514111100585'}
+2019-05-14 11:11:21,580 - SurveillanceWebServer - INFO - FPS: 13.01544114 14.9933546433
+2019-05-14 11:11:23,012 - SurveillanceWebServer - INFO - {'confidence': 54, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:11:22PM', 'identity': 'person20190514111100585'}
+2019-05-14 11:11:23,710 - SurveillanceWebServer - INFO - CPU Load: 63.6
+2019-05-14 11:11:23,710 - SurveillanceWebServer - INFO - System Memory Usage: 31.6
+2019-05-14 11:11:26,712 - SurveillanceWebServer - INFO - FPS: 23.8099204596 19.0386237262
+2019-05-14 11:11:27,026 - SurveillanceWebServer - INFO - {'confidence': 76, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:11:26PM', 'identity': 'person20190514111100585'}
+2019-05-14 11:11:28,440 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:11:28] "POST /socket.io/?EIO=3&transport=polling&t=1557832288425-14&sid=13306212bb5748709ea10ed3c654e546 HTTP/1.1" 400 -
+2019-05-14 11:11:28,523 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-14 11:11:28,839 - SurveillanceWebServer - INFO - CPU Load: 49.5
+2019-05-14 11:11:28,839 - SurveillanceWebServer - INFO - System Memory Usage: 31.7
+2019-05-14 11:11:29,216 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:11:29] "GET /socket.io/?EIO=3&transport=polling&t=1557832289208-15 HTTP/1.1" 200 -
+2019-05-14 11:11:29,240 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:11:29,241 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:11:29] "POST /socket.io/?EIO=3&transport=polling&t=1557832289222-16&sid=4ecb338456d5482f89022485b6055fbc HTTP/1.1" 200 -
+2019-05-14 11:11:29,242 - SurveillanceWebServer - INFO - {'url': u'rtsp://172.20.10.14:8080/h264_pcm.sdp', 'camNum': 0}
+2019-05-14 11:11:29,247 - SurveillanceWebServer - INFO - {'alert_id': 'alert_1', 'alert_message': u'Alert if buvi was recognised in camera All with a confidence greater than 50'}
+2019-05-14 11:11:29,255 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:11:29] "GET /socket.io/?EIO=3&transport=polling&t=1557832289223-17&sid=4ecb338456d5482f89022485b6055fbc HTTP/1.1" 200 -
+2019-05-14 11:11:31,028 - SurveillanceWebServer - INFO - {'confidence': 50, 'thumbnailNum': 3, 'prediction': 'punith', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:11:30PM', 'identity': 'person20190514111100585'}
+2019-05-14 11:11:31,034 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:11:31] "GET /socket.io/?EIO=3&transport=polling&t=1557832289258-18&sid=4ecb338456d5482f89022485b6055fbc HTTP/1.1" 200 -
+2019-05-14 11:11:31,045 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:11:31] "GET /get_faceimg/person20190514111100585_0 HTTP/1.1" 200 -
+2019-05-14 11:11:31,584 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:11:31] "GET /socket.io/?EIO=3&transport=polling&t=1557832291041-19&sid=4ecb338456d5482f89022485b6055fbc HTTP/1.1" 200 -
+2019-05-14 11:11:31,840 - SurveillanceWebServer - INFO - FPS: 14.7981159702 14.5662968517
+2019-05-14 11:11:33,965 - SurveillanceWebServer - INFO - CPU Load: 56.1
+2019-05-14 11:11:33,965 - SurveillanceWebServer - INFO - System Memory Usage: 31.8
+2019-05-14 11:11:33,966 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:11:33] "GET /socket.io/?EIO=3&transport=polling&t=1557832291591-20&sid=4ecb338456d5482f89022485b6055fbc HTTP/1.1" 200 -
+2019-05-14 11:11:35,032 - SurveillanceWebServer - INFO - {'confidence': 45, 'thumbnailNum': 2, 'prediction': 'unknown', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:11:33PM', 'identity': 'person20190514111100585'}
+2019-05-14 11:11:36,971 - SurveillanceWebServer - INFO - FPS: 31.2996860806 15.3366169012
+2019-05-14 11:11:39,036 - SurveillanceWebServer - INFO - {'confidence': 70, 'thumbnailNum': 4, 'prediction': 'unknown', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:11:37PM', 'identity': 'person20190514111100585'}
+2019-05-14 11:11:39,098 - SurveillanceWebServer - INFO - CPU Load: 40.4
+2019-05-14 11:11:39,098 - SurveillanceWebServer - INFO - System Memory Usage: 31.8
+2019-05-14 11:12:05,765 - werkzeug - WARNING - WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+2019-05-14 11:12:05,766 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-05-14 11:12:06,695 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:06] "GET /socket.io/?EIO=3&transport=polling&t=1557832326693-26 HTTP/1.1" 200 -
+2019-05-14 11:12:06,699 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:12:06,699 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:06] "POST /socket.io/?EIO=3&transport=polling&t=1557832326697-27&sid=e15b39f451244d1dac49d5ffc21bd959 HTTP/1.1" 200 -
+2019-05-14 11:12:06,699 - SurveillanceWebServer - INFO - Starting alarmStateThread
+2019-05-14 11:12:06,700 - SurveillanceWebServer - INFO - Starting facesUpdateThread
+2019-05-14 11:12:06,701 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:06] "GET /socket.io/?EIO=3&transport=polling&t=1557832326697-28&sid=e15b39f451244d1dac49d5ffc21bd959 HTTP/1.1" 200 -
+2019-05-14 11:12:06,701 - SurveillanceWebServer - INFO - Starting monitoringThread
+2019-05-14 11:12:06,703 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:06] "GET /socket.io/?EIO=3&transport=polling&t=1557832326702-29&sid=e15b39f451244d1dac49d5ffc21bd959 HTTP/1.1" 200 -
+2019-05-14 11:12:06,706 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:06] "GET /socket.io/?EIO=3&transport=polling&t=1557832326705-30&sid=e15b39f451244d1dac49d5ffc21bd959 HTTP/1.1" 200 -
+2019-05-14 11:12:08,825 - SurveillanceWebServer - INFO - CPU Load: 15.2
+2019-05-14 11:12:08,825 - SurveillanceWebServer - INFO - System Memory Usage: 30.4
+2019-05-14 11:12:08,827 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:08] "GET /socket.io/?EIO=3&transport=polling&t=1557832326708-31&sid=e15b39f451244d1dac49d5ffc21bd959 HTTP/1.1" 200 -
+2019-05-14 11:12:10,821 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:10] "GET /home HTTP/1.1" 302 -
+2019-05-14 11:12:10,832 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:10] "GET / HTTP/1.1" 200 -
+2019-05-14 11:12:13,952 - SurveillanceWebServer - INFO - CPU Load: 14.9
+2019-05-14 11:12:13,952 - SurveillanceWebServer - INFO - System Memory Usage: 30.5
+2019-05-14 11:12:14,025 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:14] "POST / HTTP/1.1" 302 -
+2019-05-14 11:12:14,063 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:14] "GET /home HTTP/1.1" 200 -
+2019-05-14 11:12:14,179 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:14] "GET /socket.io/?EIO=3&transport=polling&t=1557832334177-0 HTTP/1.1" 200 -
+2019-05-14 11:12:14,228 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:12:14,228 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:14] "POST /socket.io/?EIO=3&transport=polling&t=1557832334223-1&sid=668123454d584369b3ea95ad43f9fdc9 HTTP/1.1" 200 -
+2019-05-14 11:12:14,229 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:14] "GET /socket.io/?EIO=3&transport=polling&t=1557832334224-2&sid=668123454d584369b3ea95ad43f9fdc9 HTTP/1.1" 200 -
+2019-05-14 11:12:14,721 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:14] "GET /socket.io/?EIO=3&transport=polling&t=1557832334255-3&sid=668123454d584369b3ea95ad43f9fdc9 HTTP/1.1" 200 -
+2019-05-14 11:12:15,741 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:15] "GET /socket.io/?EIO=3&transport=polling&t=1557832334724-4&sid=668123454d584369b3ea95ad43f9fdc9 HTTP/1.1" 200 -
+2019-05-14 11:12:18,763 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:18] "GET /socket.io/?EIO=3&transport=polling&t=1557832335742-5&sid=668123454d584369b3ea95ad43f9fdc9 HTTP/1.1" 200 -
+2019-05-14 11:12:19,078 - SurveillanceWebServer - INFO - CPU Load: 14.2
+2019-05-14 11:12:19,078 - SurveillanceWebServer - INFO - System Memory Usage: 30.6
+2019-05-14 11:12:19,081 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:19] "GET /socket.io/?EIO=3&transport=polling&t=1557832338765-6&sid=668123454d584369b3ea95ad43f9fdc9 HTTP/1.1" 200 -
+2019-05-14 11:12:22,727 - SurveillanceWebServer - INFO - unknownconfidence: 50
+2019-05-14 11:12:22,728 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:22] "POST /create_alert HTTP/1.1" 200 -
+2019-05-14 11:12:24,204 - SurveillanceWebServer - INFO - CPU Load: 13.5
+2019-05-14 11:12:24,204 - SurveillanceWebServer - INFO - System Memory Usage: 30.5
+2019-05-14 11:12:29,632 - SurveillanceWebServer - INFO - CPU Load: 17.6
+2019-05-14 11:12:29,632 - SurveillanceWebServer - INFO - System Memory Usage: 30.6
+2019-05-14 11:12:29,958 - SurveillanceWebServer - INFO - Addding a new camera with url: 
+2019-05-14 11:12:29,959 - SurveillanceWebServer - INFO - rtsp://172.20.10.14:8080/h264_pcm.sdp
+2019-05-14 11:12:29,959 - SurveillanceWebServer - INFO - false
+2019-05-14 11:12:29,960 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:29] "POST /add_camera HTTP/1.1" 200 -
+2019-05-14 11:12:30,031 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:30] "GET /video_streamer/0 HTTP/1.1" 200 -
+2019-05-14 11:12:32,637 - SurveillanceWebServer - INFO - FPS: 18.4181908535 14.769050483
+2019-05-14 11:12:34,780 - SurveillanceWebServer - INFO - CPU Load: 50.2
+2019-05-14 11:12:34,780 - SurveillanceWebServer - INFO - System Memory Usage: 32.2
+2019-05-14 11:12:37,784 - SurveillanceWebServer - INFO - FPS: 36.0197690745 15.6806610972
+2019-05-14 11:12:39,230 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:12:39] "POST /socket.io/?EIO=3&transport=polling&t=1557832359224-7&sid=668123454d584369b3ea95ad43f9fdc9 HTTP/1.1" 200 -
+2019-05-14 11:12:39,910 - SurveillanceWebServer - INFO - CPU Load: 73.8
+2019-05-14 11:12:39,910 - SurveillanceWebServer - INFO - System Memory Usage: 32.3
+2019-05-14 11:12:42,742 - SurveillanceWebServer - INFO - {'confidence': 63, 'thumbnailNum': 1, 'prediction': 'unknown', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:12:39PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:12:42,912 - SurveillanceWebServer - INFO - FPS: 25.9996859271 15.3990163554
+2019-05-14 11:12:45,036 - SurveillanceWebServer - INFO - CPU Load: 55.6
+2019-05-14 11:12:45,037 - SurveillanceWebServer - INFO - System Memory Usage: 32.3
+2019-05-14 11:12:46,748 - SurveillanceWebServer - INFO - {'confidence': 63, 'thumbnailNum': 1, 'prediction': 'unknown', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:12:39PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:12:48,040 - SurveillanceWebServer - INFO - FPS: 25.2953106955 26.2968076209
+2019-05-14 11:12:50,164 - SurveillanceWebServer - INFO - CPU Load: 55.9
+2019-05-14 11:12:50,164 - SurveillanceWebServer - INFO - System Memory Usage: 32.4
+2019-05-14 11:12:50,752 - SurveillanceWebServer - INFO - {'confidence': 63, 'thumbnailNum': 1, 'prediction': 'unknown', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:12:39PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:12:53,168 - SurveillanceWebServer - INFO - FPS: 14.5213025987 13.7578518052
+2019-05-14 11:12:54,756 - SurveillanceWebServer - INFO - {'confidence': 63, 'thumbnailNum': 1, 'prediction': 'unknown', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:12:39PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:12:55,292 - SurveillanceWebServer - INFO - CPU Load: 52.9
+2019-05-14 11:12:55,292 - SurveillanceWebServer - INFO - System Memory Usage: 32.3
+2019-05-14 11:12:58,295 - SurveillanceWebServer - INFO - FPS: 31.5134132674 14.5298140984
+2019-05-14 11:12:58,761 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:12:57PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:00,434 - SurveillanceWebServer - INFO - CPU Load: 86.1
+2019-05-14 11:13:00,435 - SurveillanceWebServer - INFO - System Memory Usage: 32.4
+2019-05-14 11:13:02,764 - SurveillanceWebServer - INFO - {'confidence': 76, 'thumbnailNum': 5, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:02PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:03,436 - SurveillanceWebServer - INFO - FPS: 32.5707940206 9.84393541119
+2019-05-14 11:13:05,560 - SurveillanceWebServer - INFO - CPU Load: 53.4
+2019-05-14 11:13:05,561 - SurveillanceWebServer - INFO - System Memory Usage: 32.4
+2019-05-14 11:13:06,768 - SurveillanceWebServer - INFO - {'confidence': 78, 'thumbnailNum': 6, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:03PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:06,769 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-14 11:13:06,770 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-14 11:13:08,564 - SurveillanceWebServer - INFO - FPS: 28.8555880431 12.7750798613
+2019-05-14 11:13:10,688 - SurveillanceWebServer - INFO - CPU Load: 80.9
+2019-05-14 11:13:10,688 - SurveillanceWebServer - INFO - System Memory Usage: 32.5
+2019-05-14 11:13:10,772 - SurveillanceWebServer - INFO - {'confidence': 76, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:10PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:13,692 - SurveillanceWebServer - INFO - FPS: 26.2237695343 14.7551885671
+2019-05-14 11:13:14,776 - SurveillanceWebServer - INFO - {'confidence': 77, 'thumbnailNum': 5, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:10PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:15,816 - SurveillanceWebServer - INFO - CPU Load: 63.8
+2019-05-14 11:13:15,816 - SurveillanceWebServer - INFO - System Memory Usage: 32.4
+2019-05-14 11:13:18,780 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:14PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:18,819 - SurveillanceWebServer - INFO - FPS: 6.80790724777 14.0622085254
+2019-05-14 11:13:20,986 - SurveillanceWebServer - INFO - CPU Load: 76.0
+2019-05-14 11:13:20,986 - SurveillanceWebServer - INFO - System Memory Usage: 32.5
+2019-05-14 11:13:22,784 - SurveillanceWebServer - INFO - {'confidence': 75, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:20PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:23,989 - SurveillanceWebServer - INFO - FPS: 16.290320054 25.3297887888
+2019-05-14 11:13:26,113 - SurveillanceWebServer - INFO - CPU Load: 69.4
+2019-05-14 11:13:26,113 - SurveillanceWebServer - INFO - System Memory Usage: 32.5
+2019-05-14 11:13:26,788 - SurveillanceWebServer - INFO - {'confidence': 76, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:26PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:29,116 - SurveillanceWebServer - INFO - FPS: 11.1495335425 14.0509778356
+2019-05-14 11:13:30,796 - SurveillanceWebServer - INFO - {'confidence': 76, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:28PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:31,256 - SurveillanceWebServer - INFO - CPU Load: 63.0
+2019-05-14 11:13:31,256 - SurveillanceWebServer - INFO - System Memory Usage: 32.5
+2019-05-14 11:13:34,260 - SurveillanceWebServer - INFO - FPS: 29.7112255524 28.1380961134
+2019-05-14 11:13:34,800 - SurveillanceWebServer - INFO - {'confidence': 75, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:31PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:36,383 - SurveillanceWebServer - INFO - CPU Load: 62.5
+2019-05-14 11:13:36,384 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:13:38,804 - SurveillanceWebServer - INFO - {'confidence': 77, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:35PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:39,301 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:13:39] "POST /socket.io/?EIO=3&transport=polling&t=1557832419225-8&sid=668123454d584369b3ea95ad43f9fdc9 HTTP/1.1" 400 -
+2019-05-14 11:13:39,387 - SurveillanceWebServer - INFO - FPS: 16.4120586367 11.2443728593
+2019-05-14 11:13:39,813 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-14 11:13:39,817 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:13:39] "GET /socket.io/?EIO=3&transport=polling&t=1557832419815-9 HTTP/1.1" 200 -
+2019-05-14 11:13:39,831 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:13:39,832 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:13:39] "POST /socket.io/?EIO=3&transport=polling&t=1557832419820-10&sid=5d47a701c29a44008c3866911ba92231 HTTP/1.1" 200 -
+2019-05-14 11:13:39,832 - SurveillanceWebServer - INFO - {'url': u'rtsp://172.20.10.14:8080/h264_pcm.sdp', 'camNum': 0}
+2019-05-14 11:13:39,832 - SurveillanceWebServer - INFO - {'alert_id': 'alert_1', 'alert_message': u'Alert if buvi was recognised in camera All with a confidence greater than 50'}
+2019-05-14 11:13:39,834 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:13:39] "GET /socket.io/?EIO=3&transport=polling&t=1557832419820-11&sid=5d47a701c29a44008c3866911ba92231 HTTP/1.1" 200 -
+2019-05-14 11:13:41,511 - SurveillanceWebServer - INFO - CPU Load: 54.9
+2019-05-14 11:13:41,511 - SurveillanceWebServer - INFO - System Memory Usage: 32.5
+2019-05-14 11:13:41,527 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:13:41] "GET /socket.io/?EIO=3&transport=polling&t=1557832419838-12&sid=5d47a701c29a44008c3866911ba92231 HTTP/1.1" 200 -
+2019-05-14 11:13:42,808 - SurveillanceWebServer - INFO - {'confidence': 77, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:35PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:44,512 - SurveillanceWebServer - INFO - FPS: 29.8950399498 15.4759943916
+2019-05-14 11:13:46,636 - SurveillanceWebServer - INFO - CPU Load: 55.4
+2019-05-14 11:13:46,636 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:13:46,812 - SurveillanceWebServer - INFO - {'confidence': 75, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:45PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:49,639 - SurveillanceWebServer - INFO - FPS: 31.6238586756 14.7831051999
+2019-05-14 11:13:50,816 - SurveillanceWebServer - INFO - {'confidence': 75, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:45PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:51,763 - SurveillanceWebServer - INFO - CPU Load: 54.3
+2019-05-14 11:13:51,763 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:13:54,767 - SurveillanceWebServer - INFO - FPS: 33.1515740719 10.1764567728
+2019-05-14 11:13:54,820 - SurveillanceWebServer - INFO - {'confidence': 75, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:45PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:56,891 - SurveillanceWebServer - INFO - CPU Load: 51.1
+2019-05-14 11:13:56,891 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:13:58,839 - SurveillanceWebServer - INFO - {'confidence': 75, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:13:45PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:13:59,892 - SurveillanceWebServer - INFO - FPS: 31.4318594836 11.8805818967
+2019-05-14 11:14:02,015 - SurveillanceWebServer - INFO - CPU Load: 75.0
+2019-05-14 11:14:02,016 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:14:02,844 - SurveillanceWebServer - INFO - {'confidence': 77, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:02PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:04,823 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:14:04] "POST /socket.io/?EIO=3&transport=polling&t=1557832444820-13&sid=5d47a701c29a44008c3866911ba92231 HTTP/1.1" 200 -
+2019-05-14 11:14:05,020 - SurveillanceWebServer - INFO - FPS: 29.5701847356 17.3694877408
+2019-05-14 11:14:06,848 - SurveillanceWebServer - INFO - {'confidence': 77, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:02PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:07,144 - SurveillanceWebServer - INFO - CPU Load: 69.5
+2019-05-14 11:14:07,145 - SurveillanceWebServer - INFO - System Memory Usage: 32.7
+2019-05-14 11:14:10,154 - SurveillanceWebServer - INFO - FPS: 24.5599544829 16.428395171
+2019-05-14 11:14:10,852 - SurveillanceWebServer - INFO - {'confidence': 77, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:02PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:12,302 - SurveillanceWebServer - INFO - CPU Load: 53.5
+2019-05-14 11:14:12,303 - SurveillanceWebServer - INFO - System Memory Usage: 32.7
+2019-05-14 11:14:14,856 - SurveillanceWebServer - INFO - {'confidence': 75, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:13PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:15,304 - SurveillanceWebServer - INFO - FPS: 31.6992642585 13.4095347222
+2019-05-14 11:14:17,427 - SurveillanceWebServer - INFO - CPU Load: 65.3
+2019-05-14 11:14:17,427 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:14:18,860 - SurveillanceWebServer - INFO - {'confidence': 77, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:17PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:20,428 - SurveillanceWebServer - INFO - FPS: 8.2050046118 14.2979220087
+2019-05-14 11:14:22,570 - SurveillanceWebServer - INFO - CPU Load: 53.5
+2019-05-14 11:14:22,570 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:14:22,864 - SurveillanceWebServer - INFO - {'confidence': 77, 'thumbnailNum': 6, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:20PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:25,572 - SurveillanceWebServer - INFO - FPS: 25.8136696676 13.3671237207
+2019-05-14 11:14:26,868 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:25PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:27,745 - SurveillanceWebServer - INFO - CPU Load: 55.1
+2019-05-14 11:14:27,746 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:14:30,748 - SurveillanceWebServer - INFO - FPS: 32.6141867391 9.84874328437
+2019-05-14 11:14:30,889 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:25PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:32,872 - SurveillanceWebServer - INFO - CPU Load: 71.0
+2019-05-14 11:14:32,873 - SurveillanceWebServer - INFO - System Memory Usage: 32.7
+2019-05-14 11:14:34,892 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 6, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:34PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:35,876 - SurveillanceWebServer - INFO - FPS: 10.2443268275 15.7062389767
+2019-05-14 11:14:38,001 - SurveillanceWebServer - INFO - CPU Load: 53.1
+2019-05-14 11:14:38,001 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:14:38,896 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 7, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:35PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:41,008 - SurveillanceWebServer - INFO - FPS: 32.8961579487 15.7853171813
+2019-05-14 11:14:42,927 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 7, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:35PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:43,132 - SurveillanceWebServer - INFO - CPU Load: 57.8
+2019-05-14 11:14:43,132 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:14:46,136 - SurveillanceWebServer - INFO - FPS: 7.2975934534 13.8402944463
+2019-05-14 11:14:46,932 - SurveillanceWebServer - INFO - {'confidence': 78, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:46PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:48,294 - SurveillanceWebServer - INFO - CPU Load: 78.4
+2019-05-14 11:14:48,295 - SurveillanceWebServer - INFO - System Memory Usage: 32.7
+2019-05-14 11:14:50,954 - SurveillanceWebServer - INFO - {'confidence': 72, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:50PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:51,299 - SurveillanceWebServer - INFO - FPS: 23.4694957837 15.2863671815
+2019-05-14 11:14:53,425 - SurveillanceWebServer - INFO - CPU Load: 77.6
+2019-05-14 11:14:53,425 - SurveillanceWebServer - INFO - System Memory Usage: 32.7
+2019-05-14 11:14:54,960 - SurveillanceWebServer - INFO - {'confidence': 72, 'thumbnailNum': 5, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:54PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:14:56,428 - SurveillanceWebServer - INFO - FPS: 10.1949614678 15.9320403765
+2019-05-14 11:14:58,552 - SurveillanceWebServer - INFO - CPU Load: 71.8
+2019-05-14 11:14:58,552 - SurveillanceWebServer - INFO - System Memory Usage: 32.7
+2019-05-14 11:14:58,964 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:14:57PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:01,556 - SurveillanceWebServer - INFO - FPS: 33.0089048328 13.7183974776
+2019-05-14 11:15:02,993 - SurveillanceWebServer - INFO - {'confidence': 63, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:02PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:03,679 - SurveillanceWebServer - INFO - CPU Load: 67.7
+2019-05-14 11:15:03,679 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:15:04,825 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:15:04] "POST /socket.io/?EIO=3&transport=polling&t=1557832504822-14&sid=5d47a701c29a44008c3866911ba92231 HTTP/1.1" 400 -
+2019-05-14 11:15:06,178 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:15:06] "GET /socket.io/?EIO=3&transport=polling&t=1557832506175-15 HTTP/1.1" 200 -
+2019-05-14 11:15:06,184 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:15:06] "POST /socket.io/?EIO=3&transport=polling&t=1557832506179-16&sid=31a60f35b9e5419580faa44ec7a1ae6c HTTP/1.1" 200 -
+2019-05-14 11:15:06,183 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:15:06,184 - SurveillanceWebServer - INFO - {'url': u'rtsp://172.20.10.14:8080/h264_pcm.sdp', 'camNum': 0}
+2019-05-14 11:15:06,185 - SurveillanceWebServer - INFO - {'alert_id': 'alert_1', 'alert_message': u'Alert if buvi was recognised in camera All with a confidence greater than 50'}
+2019-05-14 11:15:06,187 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:15:06] "GET /socket.io/?EIO=3&transport=polling&t=1557832506180-17&sid=31a60f35b9e5419580faa44ec7a1ae6c HTTP/1.1" 200 -
+2019-05-14 11:15:06,189 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-14 11:15:06,193 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:15:06] "GET /socket.io/?EIO=3&transport=polling&t=1557832506191-18&sid=31a60f35b9e5419580faa44ec7a1ae6c HTTP/1.1" 200 -
+2019-05-14 11:15:06,684 - SurveillanceWebServer - INFO - FPS: 18.3366235924 15.5748153363
+2019-05-14 11:15:06,998 - SurveillanceWebServer - INFO - {'confidence': 78, 'thumbnailNum': 5, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:04PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:07,012 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:15:07] "GET /socket.io/?EIO=3&transport=polling&t=1557832506195-19&sid=31a60f35b9e5419580faa44ec7a1ae6c HTTP/1.1" 200 -
+2019-05-14 11:15:07,025 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:15:07] "GET /get_faceimg/person20190514111239487_0 HTTP/1.1" 200 -
+2019-05-14 11:15:08,828 - SurveillanceWebServer - INFO - CPU Load: 51.8
+2019-05-14 11:15:08,828 - SurveillanceWebServer - INFO - System Memory Usage: 32.7
+2019-05-14 11:15:08,852 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:15:08] "GET /socket.io/?EIO=3&transport=polling&t=1557832507021-20&sid=31a60f35b9e5419580faa44ec7a1ae6c HTTP/1.1" 200 -
+2019-05-14 11:15:11,000 - SurveillanceWebServer - INFO - {'confidence': 67, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:10PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:11,854 - SurveillanceWebServer - INFO - FPS: 24.9773201647 11.2711385712
+2019-05-14 11:15:14,000 - SurveillanceWebServer - INFO - CPU Load: 61.4
+2019-05-14 11:15:14,001 - SurveillanceWebServer - INFO - System Memory Usage: 32.7
+2019-05-14 11:15:15,004 - SurveillanceWebServer - INFO - {'confidence': 61, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:13PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:17,004 - SurveillanceWebServer - INFO - FPS: 32.7679146669 11.6748752293
+2019-05-14 11:15:19,008 - SurveillanceWebServer - INFO - {'confidence': 61, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:13PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:19,146 - SurveillanceWebServer - INFO - CPU Load: 75.7
+2019-05-14 11:15:19,147 - SurveillanceWebServer - INFO - System Memory Usage: 32.8
+2019-05-14 11:15:22,151 - SurveillanceWebServer - INFO - FPS: 29.051892265 10.7218607343
+2019-05-14 11:15:23,044 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:24,275 - SurveillanceWebServer - INFO - CPU Load: 45.2
+2019-05-14 11:15:24,275 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:15:27,048 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:27,276 - SurveillanceWebServer - INFO - FPS: 21.0254854126 9.96973167345
+2019-05-14 11:15:29,399 - SurveillanceWebServer - INFO - CPU Load: 43.6
+2019-05-14 11:15:29,399 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:15:31,072 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:31,462 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:15:31] "POST /socket.io/?EIO=3&transport=polling&t=1557832531460-21&sid=31a60f35b9e5419580faa44ec7a1ae6c HTTP/1.1" 200 -
+2019-05-14 11:15:32,404 - SurveillanceWebServer - INFO - FPS: 36.2465346192 11.8398411984
+2019-05-14 11:15:34,527 - SurveillanceWebServer - INFO - CPU Load: 44.6
+2019-05-14 11:15:34,527 - SurveillanceWebServer - INFO - System Memory Usage: 33.1
+2019-05-14 11:15:35,080 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:37,528 - SurveillanceWebServer - INFO - FPS: 38.3085775524 15.4618344502
+2019-05-14 11:15:39,128 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:39,651 - SurveillanceWebServer - INFO - CPU Load: 40.3
+2019-05-14 11:15:39,651 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:15:42,652 - SurveillanceWebServer - INFO - FPS: 29.82047159 26.7299539875
+2019-05-14 11:15:43,132 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:44,776 - SurveillanceWebServer - INFO - CPU Load: 53.2
+2019-05-14 11:15:44,778 - SurveillanceWebServer - INFO - System Memory Usage: 32.9
+2019-05-14 11:15:47,136 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:47,780 - SurveillanceWebServer - INFO - FPS: 11.3454982185 26.5746863096
+2019-05-14 11:15:49,905 - SurveillanceWebServer - INFO - CPU Load: 53.6
+2019-05-14 11:15:49,907 - SurveillanceWebServer - INFO - System Memory Usage: 32.9
+2019-05-14 11:15:51,140 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:52,910 - SurveillanceWebServer - INFO - FPS: 11.3454982185 10.3542813356
+2019-05-14 11:15:55,035 - SurveillanceWebServer - INFO - CPU Load: 59.7
+2019-05-14 11:15:55,035 - SurveillanceWebServer - INFO - System Memory Usage: 33.4
+2019-05-14 11:15:55,144 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:15:58,036 - SurveillanceWebServer - INFO - FPS: 11.3454982185 11.5504899377
+2019-05-14 11:15:59,148 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:00,161 - SurveillanceWebServer - INFO - CPU Load: 57.2
+2019-05-14 11:16:00,162 - SurveillanceWebServer - INFO - System Memory Usage: 33.3
+2019-05-14 11:16:03,152 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:03,168 - SurveillanceWebServer - INFO - FPS: 11.3454982185 12.0246645436
+2019-05-14 11:16:05,292 - SurveillanceWebServer - INFO - CPU Load: 54.5
+2019-05-14 11:16:05,292 - SurveillanceWebServer - INFO - System Memory Usage: 33.3
+2019-05-14 11:16:07,156 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:08,296 - SurveillanceWebServer - INFO - FPS: 11.3454982185 11.9511707252
+2019-05-14 11:16:10,420 - SurveillanceWebServer - INFO - CPU Load: 54.6
+2019-05-14 11:16:10,421 - SurveillanceWebServer - INFO - System Memory Usage: 33.2
+2019-05-14 11:16:11,160 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:13,424 - SurveillanceWebServer - INFO - FPS: 11.3454982185 11.5641135925
+2019-05-14 11:16:15,164 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:15,550 - SurveillanceWebServer - INFO - CPU Load: 54.0
+2019-05-14 11:16:15,550 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:16:18,552 - SurveillanceWebServer - INFO - FPS: 11.3454982185 11.0994661316
+2019-05-14 11:16:19,168 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:20,676 - SurveillanceWebServer - INFO - CPU Load: 54.0
+2019-05-14 11:16:20,676 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:16:23,172 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:23,680 - SurveillanceWebServer - INFO - FPS: 11.3454982185 11.5358321974
+2019-05-14 11:16:25,805 - SurveillanceWebServer - INFO - CPU Load: 55.1
+2019-05-14 11:16:25,805 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:16:27,176 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:28,808 - SurveillanceWebServer - INFO - FPS: 11.3454982185 10.7573839446
+2019-05-14 11:16:30,931 - SurveillanceWebServer - INFO - CPU Load: 54.9
+2019-05-14 11:16:30,931 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:16:31,180 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:31,466 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:31] "POST /socket.io/?EIO=3&transport=polling&t=1557832591461-22&sid=31a60f35b9e5419580faa44ec7a1ae6c HTTP/1.1" 400 -
+2019-05-14 11:16:32,522 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:32] "GET /socket.io/?EIO=3&transport=polling&t=1557832592516-23 HTTP/1.1" 200 -
+2019-05-14 11:16:32,532 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:16:32,532 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:32] "POST /socket.io/?EIO=3&transport=polling&t=1557832592525-24&sid=695e45664bcd4e2d9799c9ca629db196 HTTP/1.1" 200 -
+2019-05-14 11:16:32,535 - SurveillanceWebServer - INFO - {'url': u'rtsp://172.20.10.14:8080/h264_pcm.sdp', 'camNum': 0}
+2019-05-14 11:16:32,535 - SurveillanceWebServer - INFO - {'alert_id': 'alert_1', 'alert_message': u'Alert if buvi was recognised in camera All with a confidence greater than 50'}
+2019-05-14 11:16:32,537 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-14 11:16:32,547 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:32] "GET /socket.io/?EIO=3&transport=polling&t=1557832592525-25&sid=695e45664bcd4e2d9799c9ca629db196 HTTP/1.1" 200 -
+2019-05-14 11:16:33,935 - SurveillanceWebServer - INFO - FPS: 11.3454982185 11.0385774795
+2019-05-14 11:16:34,124 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:34] "GET /socket.io/?EIO=3&transport=polling&t=1557832592553-26&sid=695e45664bcd4e2d9799c9ca629db196 HTTP/1.1" 200 -
+2019-05-14 11:16:35,184 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:35,196 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:35] "GET /socket.io/?EIO=3&transport=polling&t=1557832594126-27&sid=695e45664bcd4e2d9799c9ca629db196 HTTP/1.1" 200 -
+2019-05-14 11:16:36,059 - SurveillanceWebServer - INFO - CPU Load: 56.5
+2019-05-14 11:16:36,060 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:16:36,070 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:36] "GET /socket.io/?EIO=3&transport=polling&t=1557832595201-28&sid=695e45664bcd4e2d9799c9ca629db196 HTTP/1.1" 200 -
+2019-05-14 11:16:39,064 - SurveillanceWebServer - INFO - FPS: 11.3454982185 11.3327835774
+2019-05-14 11:16:39,188 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:41,188 - SurveillanceWebServer - INFO - CPU Load: 53.9
+2019-05-14 11:16:41,188 - SurveillanceWebServer - INFO - System Memory Usage: 32.9
+2019-05-14 11:16:43,192 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:44,192 - SurveillanceWebServer - INFO - FPS: 11.3454982185 11.0396466727
+2019-05-14 11:16:44,332 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:44] "GET /home HTTP/1.1" 200 -
+2019-05-14 11:16:44,510 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:44] "GET /socket.io/?EIO=3&transport=polling&t=1557832604503-0 HTTP/1.1" 200 -
+2019-05-14 11:16:44,586 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:16:44,586 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:44] "POST /socket.io/?EIO=3&transport=polling&t=1557832604578-1&sid=d8f965f88beb44f9803f955d764ef3cc HTTP/1.1" 200 -
+2019-05-14 11:16:44,588 - SurveillanceWebServer - INFO - {'url': u'rtsp://172.20.10.14:8080/h264_pcm.sdp', 'camNum': 0}
+2019-05-14 11:16:44,589 - SurveillanceWebServer - INFO - {'alert_id': 'alert_1', 'alert_message': u'Alert if buvi was recognised in camera All with a confidence greater than 50'}
+2019-05-14 11:16:44,592 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:44] "GET /socket.io/?EIO=3&transport=polling&t=1557832604583-2&sid=d8f965f88beb44f9803f955d764ef3cc HTTP/1.1" 200 -
+2019-05-14 11:16:44,610 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:44] "GET /video_streamer/0 HTTP/1.1" 200 -
+2019-05-14 11:16:46,122 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:46] "GET /socket.io/?EIO=3&transport=polling&t=1557832604602-3&sid=d8f965f88beb44f9803f955d764ef3cc HTTP/1.1" 200 -
+2019-05-14 11:16:46,316 - SurveillanceWebServer - INFO - CPU Load: 54.9
+2019-05-14 11:16:46,316 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:16:46,343 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:16:46] "GET /socket.io/?EIO=3&transport=polling&t=1557832606126-4&sid=d8f965f88beb44f9803f955d764ef3cc HTTP/1.1" 200 -
+2019-05-14 11:16:47,196 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:49,320 - SurveillanceWebServer - INFO - FPS: 11.3454982185 11.3319078967
+2019-05-14 11:16:51,200 - SurveillanceWebServer - INFO - {'confidence': 71, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:15:19PM', 'identity': 'person20190514111239487'}
+2019-05-14 11:16:51,443 - SurveillanceWebServer - INFO - CPU Load: 59.4
+2019-05-14 11:16:51,444 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:17:17,333 - werkzeug - WARNING - WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+2019-05-14 11:17:17,333 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-05-14 11:17:17,525 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:17] "GET /home HTTP/1.1" 302 -
+2019-05-14 11:17:17,538 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:17] "GET / HTTP/1.1" 200 -
+2019-05-14 11:17:22,660 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:22] "POST / HTTP/1.1" 302 -
+2019-05-14 11:17:22,696 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:22] "GET /home HTTP/1.1" 200 -
+2019-05-14 11:17:22,792 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:22] "GET /socket.io/?EIO=3&transport=polling&t=1557832642790-0 HTTP/1.1" 200 -
+2019-05-14 11:17:22,838 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:17:22,839 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:22] "POST /socket.io/?EIO=3&transport=polling&t=1557832642834-1&sid=d5ee11b6bb704417848ee0a1cad57855 HTTP/1.1" 200 -
+2019-05-14 11:17:22,839 - SurveillanceWebServer - INFO - Starting alarmStateThread
+2019-05-14 11:17:22,840 - SurveillanceWebServer - INFO - Starting facesUpdateThread
+2019-05-14 11:17:22,842 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:22] "GET /socket.io/?EIO=3&transport=polling&t=1557832642838-2&sid=d5ee11b6bb704417848ee0a1cad57855 HTTP/1.1" 200 -
+2019-05-14 11:17:22,842 - SurveillanceWebServer - INFO - Starting monitoringThread
+2019-05-14 11:17:22,846 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:22] "GET /socket.io/?EIO=3&transport=polling&t=1557832642845-3&sid=d5ee11b6bb704417848ee0a1cad57855 HTTP/1.1" 200 -
+2019-05-14 11:17:22,849 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:22] "GET /socket.io/?EIO=3&transport=polling&t=1557832642847-4&sid=d5ee11b6bb704417848ee0a1cad57855 HTTP/1.1" 200 -
+2019-05-14 11:17:24,968 - SurveillanceWebServer - INFO - CPU Load: 1.9
+2019-05-14 11:17:24,968 - SurveillanceWebServer - INFO - System Memory Usage: 30.0
+2019-05-14 11:17:24,980 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:24] "GET /socket.io/?EIO=3&transport=polling&t=1557832642857-5&sid=d5ee11b6bb704417848ee0a1cad57855 HTTP/1.1" 200 -
+2019-05-14 11:17:30,098 - SurveillanceWebServer - INFO - CPU Load: 5.7
+2019-05-14 11:17:30,099 - SurveillanceWebServer - INFO - System Memory Usage: 30.0
+2019-05-14 11:17:35,226 - SurveillanceWebServer - INFO - CPU Load: 0.6
+2019-05-14 11:17:35,227 - SurveillanceWebServer - INFO - System Memory Usage: 29.9
+2019-05-14 11:17:40,357 - SurveillanceWebServer - INFO - CPU Load: 11.0
+2019-05-14 11:17:40,358 - SurveillanceWebServer - INFO - System Memory Usage: 29.9
+2019-05-14 11:17:45,487 - SurveillanceWebServer - INFO - CPU Load: 3.4
+2019-05-14 11:17:45,488 - SurveillanceWebServer - INFO - System Memory Usage: 29.9
+2019-05-14 11:17:47,842 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:47] "POST /socket.io/?EIO=3&transport=polling&t=1557832667837-6&sid=d5ee11b6bb704417848ee0a1cad57855 HTTP/1.1" 200 -
+2019-05-14 11:17:50,618 - SurveillanceWebServer - INFO - CPU Load: 8.4
+2019-05-14 11:17:50,619 - SurveillanceWebServer - INFO - System Memory Usage: 30.0
+2019-05-14 11:17:50,922 - SurveillanceWebServer - INFO - Addding a new camera with url: 
+2019-05-14 11:17:50,924 - SurveillanceWebServer - INFO - rtsp://172.20.10.8:8080/h264_pcm.sdp
+2019-05-14 11:17:50,925 - SurveillanceWebServer - INFO - false
+2019-05-14 11:17:50,930 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:50] "POST /add_camera HTTP/1.1" 200 -
+2019-05-14 11:17:50,997 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:17:50] "GET /video_streamer/0 HTTP/1.1" 200 -
+2019-05-14 11:17:53,622 - SurveillanceWebServer - INFO - FPS: 7.79747371983 7.63036074036
+2019-05-14 11:18:55,716 - werkzeug - WARNING - WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+2019-05-14 11:18:55,717 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-05-14 11:18:57,286 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:18:57] "GET /home HTTP/1.1" 302 -
+2019-05-14 11:18:57,293 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:18:57] "GET / HTTP/1.1" 200 -
+2019-05-14 11:19:00,866 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:00] "POST / HTTP/1.1" 302 -
+2019-05-14 11:19:00,902 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:00] "GET /home HTTP/1.1" 200 -
+2019-05-14 11:19:01,068 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:01] "GET /socket.io/?EIO=3&transport=polling&t=1557832741066-0 HTTP/1.1" 200 -
+2019-05-14 11:19:01,120 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:01] "POST /socket.io/?EIO=3&transport=polling&t=1557832741117-1&sid=f5cc19d7a16844d79ac3e17b0c7e8b23 HTTP/1.1" 200 -
+2019-05-14 11:19:01,122 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:19:01,123 - SurveillanceWebServer - INFO - Starting alarmStateThread
+2019-05-14 11:19:01,123 - SurveillanceWebServer - INFO - Starting facesUpdateThread
+2019-05-14 11:19:01,124 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:01] "GET /socket.io/?EIO=3&transport=polling&t=1557832741118-2&sid=f5cc19d7a16844d79ac3e17b0c7e8b23 HTTP/1.1" 200 -
+2019-05-14 11:19:01,128 - SurveillanceWebServer - INFO - Starting monitoringThread
+2019-05-14 11:19:01,130 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:01] "GET /socket.io/?EIO=3&transport=polling&t=1557832741125-3&sid=f5cc19d7a16844d79ac3e17b0c7e8b23 HTTP/1.1" 200 -
+2019-05-14 11:19:01,134 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:01] "GET /socket.io/?EIO=3&transport=polling&t=1557832741133-4&sid=f5cc19d7a16844d79ac3e17b0c7e8b23 HTTP/1.1" 200 -
+2019-05-14 11:19:03,252 - SurveillanceWebServer - INFO - CPU Load: 22.8
+2019-05-14 11:19:03,253 - SurveillanceWebServer - INFO - System Memory Usage: 30.2
+2019-05-14 11:19:03,256 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:03] "GET /socket.io/?EIO=3&transport=polling&t=1557832741137-5&sid=f5cc19d7a16844d79ac3e17b0c7e8b23 HTTP/1.1" 200 -
+2019-05-14 11:19:06,843 - SurveillanceWebServer - INFO - Addding a new camera with url: 
+2019-05-14 11:19:06,844 - SurveillanceWebServer - INFO - rtsp://172.20.10.14:8080/h264_pcm.sdp
+2019-05-14 11:19:06,844 - SurveillanceWebServer - INFO - false
+2019-05-14 11:19:06,847 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:06] "POST /add_camera HTTP/1.1" 200 -
+2019-05-14 11:19:06,919 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:06] "GET /video_streamer/0 HTTP/1.1" 200 -
+2019-05-14 11:19:08,384 - SurveillanceWebServer - INFO - CPU Load: 47.7
+2019-05-14 11:19:08,385 - SurveillanceWebServer - INFO - System Memory Usage: 31.9
+2019-05-14 11:19:11,388 - SurveillanceWebServer - INFO - FPS: 31.5338283684 14.2068068502
+2019-05-14 11:19:13,512 - SurveillanceWebServer - INFO - CPU Load: 51.7
+2019-05-14 11:19:13,512 - SurveillanceWebServer - INFO - System Memory Usage: 31.9
+2019-05-14 11:19:14,296 - SurveillanceWebServer - INFO - Addding a new camera with url: 
+2019-05-14 11:19:14,297 - SurveillanceWebServer - INFO - rtsp://172.20.10.8:8080/h264_pcm.sdp
+2019-05-14 11:19:14,297 - SurveillanceWebServer - INFO - false
+2019-05-14 11:19:14,298 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:14] "POST /add_camera HTTP/1.1" 200 -
+2019-05-14 11:19:14,385 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:14] "GET /video_streamer/1 HTTP/1.1" 200 -
+2019-05-14 11:19:16,571 - SurveillanceWebServer - INFO - FPS: 5.37780463683 9.76550971381
+2019-05-14 11:19:16,572 - SurveillanceWebServer - INFO - FPS: 7.44362272643 24.0588199528
+2019-05-14 11:19:18,706 - SurveillanceWebServer - INFO - CPU Load: 77.0
+2019-05-14 11:19:18,707 - SurveillanceWebServer - INFO - System Memory Usage: 32.3
+2019-05-14 11:19:21,712 - SurveillanceWebServer - INFO - FPS: 7.96026104626 12.5770988649
+2019-05-14 11:19:21,713 - SurveillanceWebServer - INFO - FPS: 7.72242526232 8.35681866181
+2019-05-14 11:19:23,836 - SurveillanceWebServer - INFO - CPU Load: 80.9
+2019-05-14 11:19:23,836 - SurveillanceWebServer - INFO - System Memory Usage: 32.4
+2019-05-14 11:19:26,125 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:26] "POST /socket.io/?EIO=3&transport=polling&t=1557832766118-6&sid=f5cc19d7a16844d79ac3e17b0c7e8b23 HTTP/1.1" 200 -
+2019-05-14 11:19:26,878 - SurveillanceWebServer - INFO - FPS: 12.3809416981 11.1987867525
+2019-05-14 11:19:26,878 - SurveillanceWebServer - INFO - FPS: 10.053316587 16.9088616331
+2019-05-14 11:19:29,002 - SurveillanceWebServer - INFO - CPU Load: 65.0
+2019-05-14 11:19:29,003 - SurveillanceWebServer - INFO - System Memory Usage: 32.5
+2019-05-14 11:19:32,008 - SurveillanceWebServer - INFO - FPS: 9.40120558622 10.8791218482
+2019-05-14 11:19:32,008 - SurveillanceWebServer - INFO - FPS: 11.6482235941 9.64347923652
+2019-05-14 11:19:34,132 - SurveillanceWebServer - INFO - CPU Load: 78.5
+2019-05-14 11:19:34,133 - SurveillanceWebServer - INFO - System Memory Usage: 32.4
+2019-05-14 11:19:37,222 - SurveillanceWebServer - INFO - FPS: 14.1860090452 16.2243925384
+2019-05-14 11:19:37,223 - SurveillanceWebServer - INFO - FPS: 9.94538575294 14.5535802891
+2019-05-14 11:19:39,420 - SurveillanceWebServer - INFO - CPU Load: 72.6
+2019-05-14 11:19:39,420 - SurveillanceWebServer - INFO - System Memory Usage: 32.5
+2019-05-14 11:19:42,430 - SurveillanceWebServer - INFO - FPS: 25.7757557073 13.8685853349
+2019-05-14 11:19:42,430 - SurveillanceWebServer - INFO - FPS: 18.9611198637 19.0100273572
+2019-05-14 11:19:44,554 - SurveillanceWebServer - INFO - CPU Load: 79.1
+2019-05-14 11:19:44,556 - SurveillanceWebServer - INFO - System Memory Usage: 32.6
+2019-05-14 11:19:46,904 - SurveillanceWebServer - INFO - {'confidence': 41, 'thumbnailNum': 1, 'prediction': 'unknown', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:44PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:19:47,562 - SurveillanceWebServer - INFO - FPS: 21.3025978753 13.8661278421
+2019-05-14 11:19:47,562 - SurveillanceWebServer - INFO - FPS: 16.3891536206 17.7129111598
+2019-05-14 11:19:49,694 - SurveillanceWebServer - INFO - CPU Load: 84.6
+2019-05-14 11:19:49,695 - SurveillanceWebServer - INFO - System Memory Usage: 32.8
+2019-05-14 11:19:50,126 - SurveillanceWebServer - INFO - unknownconfidence: 50
+2019-05-14 11:19:50,128 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:19:50] "POST /create_alert HTTP/1.1" 200 -
+2019-05-14 11:19:50,908 - SurveillanceWebServer - INFO - {'confidence': 50, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:19:49PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:19:50,909 - SurveillanceWebServer - INFO - {'confidence': 41, 'thumbnailNum': 1, 'prediction': 'unknown', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:44PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:19:52,724 - SurveillanceWebServer - INFO - FPS: 9.84603827798 9.2910762513
+2019-05-14 11:19:52,724 - SurveillanceWebServer - INFO - FPS: 6.47480965995 23.3630558489
+2019-05-14 11:19:54,879 - SurveillanceWebServer - INFO - CPU Load: 60.4
+2019-05-14 11:19:54,881 - SurveillanceWebServer - INFO - System Memory Usage: 32.7
+2019-05-14 11:19:54,912 - SurveillanceWebServer - INFO - {'confidence': 50, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:19:51PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:19:54,912 - SurveillanceWebServer - INFO - {'confidence': 41, 'thumbnailNum': 1, 'prediction': 'unknown', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:44PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:19:57,884 - SurveillanceWebServer - INFO - FPS: 11.6300019733 11.687595439
+2019-05-14 11:19:57,884 - SurveillanceWebServer - INFO - FPS: 10.4195265429 19.1909808013
+2019-05-14 11:19:58,917 - SurveillanceWebServer - INFO - {'confidence': 50, 'thumbnailNum': 3, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:19:51PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:19:58,918 - SurveillanceWebServer - INFO - {'confidence': 39, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:57PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:20:00,008 - SurveillanceWebServer - INFO - CPU Load: 99.9
+2019-05-14 11:20:00,009 - SurveillanceWebServer - INFO - System Memory Usage: 32.8
+2019-05-14 11:20:02,920 - SurveillanceWebServer - INFO - {'confidence': 50, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:20:00PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:20:02,921 - SurveillanceWebServer - INFO - {'confidence': 39, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:57PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:20:03,013 - SurveillanceWebServer - INFO - FPS: 17.1191423363 11.6097073813
+2019-05-14 11:20:03,014 - SurveillanceWebServer - INFO - FPS: 9.54429122921 16.3238186716
+2019-05-14 11:20:05,196 - SurveillanceWebServer - INFO - CPU Load: 63.2
+2019-05-14 11:20:05,196 - SurveillanceWebServer - INFO - System Memory Usage: 32.9
+2019-05-14 11:20:06,924 - SurveillanceWebServer - INFO - {'confidence': 50, 'thumbnailNum': 5, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:20:03PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:20:06,924 - SurveillanceWebServer - INFO - {'confidence': 39, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:57PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:20:08,201 - SurveillanceWebServer - INFO - FPS: 3.96179796295 12.3817530867
+2019-05-14 11:20:08,201 - SurveillanceWebServer - INFO - FPS: 7.45003738959 23.5127023297
+2019-05-14 11:20:10,324 - SurveillanceWebServer - INFO - CPU Load: 75.0
+2019-05-14 11:20:10,324 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:20:10,928 - SurveillanceWebServer - INFO - {'confidence': 67, 'thumbnailNum': 8, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:20:09PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:20:10,928 - SurveillanceWebServer - INFO - {'confidence': 39, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:57PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:20:13,328 - SurveillanceWebServer - INFO - FPS: 13.89303185 11.2380761508
+2019-05-14 11:20:13,328 - SurveillanceWebServer - INFO - FPS: 13.6068035575 58.5966873058
+2019-05-14 11:20:14,932 - SurveillanceWebServer - INFO - {'confidence': 67, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:20:13PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:20:14,932 - SurveillanceWebServer - INFO - {'confidence': 39, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:57PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:20:15,478 - SurveillanceWebServer - INFO - CPU Load: 73.7
+2019-05-14 11:20:15,479 - SurveillanceWebServer - INFO - System Memory Usage: 32.8
+2019-05-14 11:20:18,480 - SurveillanceWebServer - INFO - FPS: 9.1720275622 11.4696557438
+2019-05-14 11:20:18,480 - SurveillanceWebServer - INFO - FPS: 15.4916659228 18.8241714644
+2019-05-14 11:20:19,010 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:20:17PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:20:19,011 - SurveillanceWebServer - INFO - {'confidence': 39, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:57PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:20:20,630 - SurveillanceWebServer - INFO - CPU Load: 57.4
+2019-05-14 11:20:20,634 - SurveillanceWebServer - INFO - System Memory Usage: 33.0
+2019-05-14 11:20:23,036 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:20:17PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:20:23,036 - SurveillanceWebServer - INFO - {'confidence': 39, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:57PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:20:23,636 - SurveillanceWebServer - INFO - FPS: 9.86756139038 14.3900159603
+2019-05-14 11:20:23,636 - SurveillanceWebServer - INFO - FPS: 9.7010277009 16.9239671035
+2019-05-14 11:20:25,762 - SurveillanceWebServer - INFO - CPU Load: 75.5
+2019-05-14 11:20:25,763 - SurveillanceWebServer - INFO - System Memory Usage: 33.1
+2019-05-14 11:20:26,518 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:20:26] "POST /socket.io/?EIO=3&transport=polling&t=1557832826461-7&sid=f5cc19d7a16844d79ac3e17b0c7e8b23 HTTP/1.1" 400 -
+2019-05-14 11:20:27,041 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:20:17PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:20:27,041 - SurveillanceWebServer - INFO - {'confidence': 39, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:57PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:20:27,043 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-14 11:20:28,469 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:20:28] "GET /socket.io/?EIO=3&transport=polling&t=1557832828460-8 HTTP/1.1" 200 -
+2019-05-14 11:20:28,477 - SurveillanceWebServer - INFO - client connected
+2019-05-14 11:20:28,478 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:20:28] "POST /socket.io/?EIO=3&transport=polling&t=1557832828471-9&sid=1eacf8d9b99d4fe69d974c69b28117dd HTTP/1.1" 200 -
+2019-05-14 11:20:28,478 - SurveillanceWebServer - INFO - {'url': u'rtsp://172.20.10.14:8080/h264_pcm.sdp', 'camNum': 0}
+2019-05-14 11:20:28,478 - SurveillanceWebServer - INFO - {'url': u'rtsp://172.20.10.8:8080/h264_pcm.sdp', 'camNum': 1}
+2019-05-14 11:20:28,478 - SurveillanceWebServer - INFO - {'alert_id': 'alert_1', 'alert_message': u'Alert if buvi was recognised in camera All with a confidence greater than 50'}
+2019-05-14 11:20:28,483 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:20:28] "GET /socket.io/?EIO=3&transport=polling&t=1557832828471-10&sid=1eacf8d9b99d4fe69d974c69b28117dd HTTP/1.1" 200 -
+2019-05-14 11:20:28,552 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:20:28] "GET /socket.io/?EIO=3&transport=polling&t=1557832828486-11&sid=1eacf8d9b99d4fe69d974c69b28117dd HTTP/1.1" 200 -
+2019-05-14 11:20:28,776 - SurveillanceWebServer - INFO - FPS: 29.5645223251 16.7569869653
+2019-05-14 11:20:28,781 - SurveillanceWebServer - INFO - FPS: 14.7544930401 19.8538852383
+2019-05-14 11:20:30,916 - SurveillanceWebServer - INFO - CPU Load: 56.6
+2019-05-14 11:20:30,916 - SurveillanceWebServer - INFO - System Memory Usage: 33.1
+2019-05-14 11:20:30,962 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:20:30] "GET /socket.io/?EIO=3&transport=polling&t=1557832828553-12&sid=1eacf8d9b99d4fe69d974c69b28117dd HTTP/1.1" 200 -
+2019-05-14 11:20:31,044 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:20:17PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:20:31,044 - SurveillanceWebServer - INFO - {'confidence': 39, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:57PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:20:33,920 - SurveillanceWebServer - INFO - FPS: 13.1967038949 14.124337696
+2019-05-14 11:20:33,920 - SurveillanceWebServer - INFO - FPS: 15.506757681 15.3399150478
+2019-05-14 11:20:35,048 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:20:17PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:20:35,048 - SurveillanceWebServer - INFO - {'confidence': 39, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:57PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:20:36,048 - SurveillanceWebServer - INFO - CPU Load: 66.0
+2019-05-14 11:20:36,048 - SurveillanceWebServer - INFO - System Memory Usage: 33.2
+2019-05-14 11:20:39,051 - SurveillanceWebServer - INFO - {'confidence': 74, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Tuesday 14 May 2019 01:20:17PM', 'identity': 'person2019051411194844'}
+2019-05-14 11:20:39,051 - SurveillanceWebServer - INFO - {'confidence': 39, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 1, 'timeD': 'Tuesday 14 May 2019 01:19:57PM', 'identity': 'person2019051411194454'}
+2019-05-14 11:20:39,051 - SurveillanceWebServer - INFO - FPS: 18.5045272658 16.9605390748
+2019-05-14 11:20:39,052 - SurveillanceWebServer - INFO - FPS: 10.3361485564 19.0574298597
+2019-05-14 11:20:39,453 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:20:39] "GET / HTTP/1.1" 200 -
+2019-05-14 11:20:41,238 - SurveillanceWebServer - INFO - CPU Load: 37.7
+2019-05-14 11:20:41,238 - SurveillanceWebServer - INFO - System Memory Usage: 33.1
