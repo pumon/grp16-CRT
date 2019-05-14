@@ -166,7 +166,7 @@ class FaceRecogniser(object):
             start = time.time()
             # Train Model
             self.train("generated-embeddings/","LinearSvm",-1)
-            logger.info("Training took {} seconds.".format(time.time() - start))
+            #logger.inreps.csvfo("Training took {} seconds.".format(time.time() - start))
         else:
             logger.info("Generate representation did not return True")
 
@@ -195,7 +195,7 @@ class FaceRecogniser(object):
 
     def train(self,workDir,classifier,ldaDim):
         fname = "{}labels.csv".format(workDir) #labels of faces
-        logger.info("Loading labels " + fname + " csv size: " +  str(os.path.getsize("/root/home_surveillance/system/generated-embeddings/reps.csv")))
+        logger.info("Loading labels " + fname + " csv size: " +  str(os.path.getsize("/home/system/generated-embeddings/reps.csv")))
         if os.path.getsize(fname) > 0:
             logger.info(fname + " file is not empty")
             labels = pd.read_csv(fname, header=None).as_matrix()[:, 1]
