@@ -3261,3 +3261,411 @@
 2019-05-14 11:20:39,453 - werkzeug - INFO - 172.17.0.1 - - [14/May/2019 11:20:39] "GET / HTTP/1.1" 200 -
 2019-05-14 11:20:41,238 - SurveillanceWebServer - INFO - CPU Load: 37.7
 2019-05-14 11:20:41,238 - SurveillanceWebServer - INFO - System Memory Usage: 33.1
+2019-05-15 05:29:04,009 - werkzeug - WARNING - WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+2019-05-15 05:29:04,010 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-05-15 05:29:05,723 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:05] "GET / HTTP/1.1" 200 -
+2019-05-15 05:29:05,890 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:05] "GET /static/plugins/iCheck/square/blue.css HTTP/1.1" 304 -
+2019-05-15 05:29:05,892 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:05] "GET /static/dist/css/AdminLTE.min.css HTTP/1.1" 200 -
+2019-05-15 05:29:05,896 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:05] "GET /static/plugins/jQuery/jquery-2.2.3.min.js HTTP/1.1" 200 -
+2019-05-15 05:29:05,898 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2019-05-15 05:29:05,950 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:05] "GET /static/plugins/iCheck/icheck.min.js HTTP/1.1" 304 -
+2019-05-15 05:29:05,960 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:05] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-05-15 05:29:06,197 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:06] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+2019-05-15 05:29:06,218 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:06] "GET /static/plugins/iCheck/square/blue.png HTTP/1.1" 304 -
+2019-05-15 05:29:06,224 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:06] "GET /favicon.ico HTTP/1.1" 404 -
+2019-05-15 05:29:15,566 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "POST / HTTP/1.1" 302 -
+2019-05-15 05:29:15,635 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "GET /home HTTP/1.1" 200 -
+2019-05-15 05:29:15,683 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "GET /static/plugins/morris/morris.css HTTP/1.1" 304 -
+2019-05-15 05:29:15,686 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "GET /static/plugins/iCheck/flat/blue.css HTTP/1.1" 304 -
+2019-05-15 05:29:15,690 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "GET /static/plugins/jvectormap/jquery-jvectormap-1.2.2.css HTTP/1.1" 304 -
+2019-05-15 05:29:15,691 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "GET /static/plugins/datepicker/datepicker3.css HTTP/1.1" 304 -
+2019-05-15 05:29:15,696 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "GET /static/plugins/ionslider/ion.rangeSlider.skinNice.css HTTP/1.1" 304 -
+2019-05-15 05:29:15,699 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "GET /static/css/main.css HTTP/1.1" 304 -
+2019-05-15 05:29:15,703 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "GET /static/plugins/bootstrap-slider/bootstrap-slider.js HTTP/1.1" 200 -
+2019-05-15 05:29:15,707 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "GET /static/plugins/ionslider/ion.rangeSlider.css HTTP/1.1" 304 -
+2019-05-15 05:29:15,854 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "GET /static/dist/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+2019-05-15 05:29:15,866 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:15] "GET /static/plugins/bootstrap-slider/slider.css HTTP/1.1" 304 -
+2019-05-15 05:29:16,209 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/plugins/ionslider/ion.rangeSlider.min.js HTTP/1.1" 304 -
+2019-05-15 05:29:16,218 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/plugins/morris/morris.min.js HTTP/1.1" 304 -
+2019-05-15 05:29:16,238 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/plugins/jvectormap/jquery-jvectormap-world-mill-en.js HTTP/1.1" 200 -
+2019-05-15 05:29:16,242 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 -
+2019-05-15 05:29:16,257 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/plugins/datepicker/bootstrap-datepicker.js HTTP/1.1" 304 -
+2019-05-15 05:29:16,258 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/plugins/knob/jquery.knob.js HTTP/1.1" 304 -
+2019-05-15 05:29:16,259 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 200 -
+2019-05-15 05:29:16,272 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/plugins/sparkline/jquery.sparkline.min.js HTTP/1.1" 304 -
+2019-05-15 05:29:16,274 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+2019-05-15 05:29:16,287 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/plugins/slimScroll/jquery.slimscroll.min.js HTTP/1.1" 304 -
+2019-05-15 05:29:16,287 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/dist/img/admin.jpg HTTP/1.1" 304 -
+2019-05-15 05:29:16,299 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/dist/js/app.min.js HTTP/1.1" 304 -
+2019-05-15 05:29:16,299 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/dist/js/pages/dashboard.js HTTP/1.1" 304 -
+2019-05-15 05:29:16,311 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/plugins/fastclick/fastclick.js HTTP/1.1" 304 -
+2019-05-15 05:29:16,322 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /static/dist/js/demo.js HTTP/1.1" 304 -
+2019-05-15 05:29:16,527 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /socket.io/?EIO=3&transport=polling&t=1557898156525-0 HTTP/1.1" 200 -
+2019-05-15 05:29:16,551 - SurveillanceWebServer - INFO - client connected
+2019-05-15 05:29:16,552 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "POST /socket.io/?EIO=3&transport=polling&t=1557898156544-1&sid=a4c44055626a428482f620898c2cb01d HTTP/1.1" 200 -
+2019-05-15 05:29:16,553 - SurveillanceWebServer - INFO - Starting alarmStateThread
+2019-05-15 05:29:16,554 - SurveillanceWebServer - INFO - Starting facesUpdateThread
+2019-05-15 05:29:16,556 - SurveillanceWebServer - INFO - Starting monitoringThread
+2019-05-15 05:29:16,557 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /socket.io/?EIO=3&transport=polling&t=1557898156548-2&sid=a4c44055626a428482f620898c2cb01d HTTP/1.1" 200 -
+2019-05-15 05:29:16,560 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:16] "GET /socket.io/?EIO=3&transport=polling&t=1557898156559-3&sid=a4c44055626a428482f620898c2cb01d HTTP/1.1" 200 -
+2019-05-15 05:29:18,681 - SurveillanceWebServer - INFO - CPU Load: 2.5
+2019-05-15 05:29:18,682 - SurveillanceWebServer - INFO - System Memory Usage: 25.1
+2019-05-15 05:29:18,689 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:18] "GET /socket.io/?EIO=3&transport=polling&t=1557898156566-4&sid=a4c44055626a428482f620898c2cb01d HTTP/1.1" 200 -
+2019-05-15 05:29:23,811 - SurveillanceWebServer - INFO - CPU Load: 0.7
+2019-05-15 05:29:23,811 - SurveillanceWebServer - INFO - System Memory Usage: 25.1
+2019-05-15 05:29:28,940 - SurveillanceWebServer - INFO - CPU Load: 0.5
+2019-05-15 05:29:28,940 - SurveillanceWebServer - INFO - System Memory Usage: 25.0
+2019-05-15 05:29:34,069 - SurveillanceWebServer - INFO - CPU Load: 3.1
+2019-05-15 05:29:34,069 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:29:39,197 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-15 05:29:39,198 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:29:41,552 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:29:41] "POST /socket.io/?EIO=3&transport=polling&t=1557898181547-5&sid=a4c44055626a428482f620898c2cb01d HTTP/1.1" 200 -
+2019-05-15 05:29:44,327 - SurveillanceWebServer - INFO - CPU Load: 0.0
+2019-05-15 05:29:44,328 - SurveillanceWebServer - INFO - System Memory Usage: 24.7
+2019-05-15 05:29:49,457 - SurveillanceWebServer - INFO - CPU Load: 4.0
+2019-05-15 05:29:49,458 - SurveillanceWebServer - INFO - System Memory Usage: 24.7
+2019-05-15 05:29:54,587 - SurveillanceWebServer - INFO - CPU Load: 0.0
+2019-05-15 05:29:54,588 - SurveillanceWebServer - INFO - System Memory Usage: 24.7
+2019-05-15 05:29:59,717 - SurveillanceWebServer - INFO - CPU Load: 0.9
+2019-05-15 05:29:59,718 - SurveillanceWebServer - INFO - System Memory Usage: 24.7
+2019-05-15 05:30:04,847 - SurveillanceWebServer - INFO - CPU Load: 8.4
+2019-05-15 05:30:04,848 - SurveillanceWebServer - INFO - System Memory Usage: 24.8
+2019-05-15 05:30:09,977 - SurveillanceWebServer - INFO - CPU Load: 1.4
+2019-05-15 05:30:09,978 - SurveillanceWebServer - INFO - System Memory Usage: 24.8
+2019-05-15 05:30:11,010 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:30:11] "GET /home HTTP/1.1" 200 -
+2019-05-15 05:30:12,820 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:30:12] "GET /socket.io/?EIO=3&transport=polling&t=1557898212818-0 HTTP/1.1" 200 -
+2019-05-15 05:30:12,866 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:30:12] "POST /socket.io/?EIO=3&transport=polling&t=1557898212860-1&sid=e6dc7c77ceed486ab62d081b588ef5c9 HTTP/1.1" 200 -
+2019-05-15 05:30:12,867 - SurveillanceWebServer - INFO - client connected
+2019-05-15 05:30:12,869 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:30:12] "GET /socket.io/?EIO=3&transport=polling&t=1557898212861-2&sid=e6dc7c77ceed486ab62d081b588ef5c9 HTTP/1.1" 200 -
+2019-05-15 05:30:13,640 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:30:13] "GET /socket.io/?EIO=3&transport=polling&t=1557898212872-3&sid=e6dc7c77ceed486ab62d081b588ef5c9 HTTP/1.1" 200 -
+2019-05-15 05:30:15,108 - SurveillanceWebServer - INFO - CPU Load: 6.9
+2019-05-15 05:30:15,108 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:30:15,120 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:30:15] "GET /socket.io/?EIO=3&transport=polling&t=1557898213645-4&sid=e6dc7c77ceed486ab62d081b588ef5c9 HTTP/1.1" 200 -
+2019-05-15 05:30:20,239 - SurveillanceWebServer - INFO - CPU Load: 0.2
+2019-05-15 05:30:20,239 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:30:25,369 - SurveillanceWebServer - INFO - CPU Load: 0.0
+2019-05-15 05:30:25,370 - SurveillanceWebServer - INFO - System Memory Usage: 24.8
+2019-05-15 05:30:30,499 - SurveillanceWebServer - INFO - CPU Load: 0.3
+2019-05-15 05:30:30,500 - SurveillanceWebServer - INFO - System Memory Usage: 24.8
+2019-05-15 05:30:35,630 - SurveillanceWebServer - INFO - CPU Load: 0.2
+2019-05-15 05:30:35,631 - SurveillanceWebServer - INFO - System Memory Usage: 24.8
+2019-05-15 05:30:37,866 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:30:37] "POST /socket.io/?EIO=3&transport=polling&t=1557898237862-5&sid=e6dc7c77ceed486ab62d081b588ef5c9 HTTP/1.1" 200 -
+2019-05-15 05:30:40,761 - SurveillanceWebServer - INFO - CPU Load: 8.5
+2019-05-15 05:30:40,762 - SurveillanceWebServer - INFO - System Memory Usage: 24.8
+2019-05-15 05:30:43,672 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-15 05:30:45,891 - SurveillanceWebServer - INFO - CPU Load: 0.0
+2019-05-15 05:30:45,892 - SurveillanceWebServer - INFO - System Memory Usage: 24.8
+2019-05-15 05:30:51,021 - SurveillanceWebServer - INFO - CPU Load: 8.1
+2019-05-15 05:30:51,022 - SurveillanceWebServer - INFO - System Memory Usage: 24.8
+2019-05-15 05:30:56,151 - SurveillanceWebServer - INFO - CPU Load: 1.0
+2019-05-15 05:30:56,152 - SurveillanceWebServer - INFO - System Memory Usage: 25.3
+2019-05-15 05:31:01,281 - SurveillanceWebServer - INFO - CPU Load: 0.0
+2019-05-15 05:31:01,282 - SurveillanceWebServer - INFO - System Memory Usage: 25.3
+2019-05-15 05:31:06,412 - SurveillanceWebServer - INFO - CPU Load: 0.5
+2019-05-15 05:31:06,412 - SurveillanceWebServer - INFO - System Memory Usage: 25.3
+2019-05-15 05:31:11,542 - SurveillanceWebServer - INFO - CPU Load: 0.2
+2019-05-15 05:31:11,543 - SurveillanceWebServer - INFO - System Memory Usage: 25.4
+2019-05-15 05:31:16,671 - SurveillanceWebServer - INFO - CPU Load: 6.3
+2019-05-15 05:31:16,672 - SurveillanceWebServer - INFO - System Memory Usage: 25.5
+2019-05-15 05:31:21,801 - SurveillanceWebServer - INFO - CPU Load: 1.5
+2019-05-15 05:31:21,802 - SurveillanceWebServer - INFO - System Memory Usage: 25.6
+2019-05-15 05:31:26,931 - SurveillanceWebServer - INFO - CPU Load: 1.5
+2019-05-15 05:31:26,932 - SurveillanceWebServer - INFO - System Memory Usage: 25.5
+2019-05-15 05:31:32,061 - SurveillanceWebServer - INFO - CPU Load: 4.2
+2019-05-15 05:31:32,062 - SurveillanceWebServer - INFO - System Memory Usage: 25.6
+2019-05-15 05:31:37,191 - SurveillanceWebServer - INFO - CPU Load: 11.0
+2019-05-15 05:31:37,192 - SurveillanceWebServer - INFO - System Memory Usage: 26.6
+2019-05-15 05:31:37,867 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:31:37] "POST /socket.io/?EIO=3&transport=polling&t=1557898297863-6&sid=e6dc7c77ceed486ab62d081b588ef5c9 HTTP/1.1" 400 -
+2019-05-15 05:31:38,430 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:31:38] "GET /socket.io/?EIO=3&transport=polling&t=1557898298424-7 HTTP/1.1" 200 -
+2019-05-15 05:31:38,434 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:31:38] "POST /socket.io/?EIO=3&transport=polling&t=1557898298432-8&sid=32824b925d5546768ce393d025f0ba09 HTTP/1.1" 200 -
+2019-05-15 05:31:38,434 - SurveillanceWebServer - INFO - client connected
+2019-05-15 05:31:38,436 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-15 05:31:38,438 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:31:38] "GET /socket.io/?EIO=3&transport=polling&t=1557898298432-9&sid=32824b925d5546768ce393d025f0ba09 HTTP/1.1" 200 -
+2019-05-15 05:31:40,765 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:31:40] "GET /socket.io/?EIO=3&transport=polling&t=1557898298440-10&sid=32824b925d5546768ce393d025f0ba09 HTTP/1.1" 200 -
+2019-05-15 05:31:42,321 - SurveillanceWebServer - INFO - CPU Load: 2.8
+2019-05-15 05:31:42,322 - SurveillanceWebServer - INFO - System Memory Usage: 26.0
+2019-05-15 05:31:42,343 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:31:42] "GET /socket.io/?EIO=3&transport=polling&t=1557898300769-11&sid=32824b925d5546768ce393d025f0ba09 HTTP/1.1" 200 -
+2019-05-15 05:31:47,450 - SurveillanceWebServer - INFO - CPU Load: 2.4
+2019-05-15 05:31:47,451 - SurveillanceWebServer - INFO - System Memory Usage: 25.8
+2019-05-15 05:31:52,579 - SurveillanceWebServer - INFO - CPU Load: 3.1
+2019-05-15 05:31:52,580 - SurveillanceWebServer - INFO - System Memory Usage: 25.8
+2019-05-15 05:31:57,708 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-15 05:31:57,708 - SurveillanceWebServer - INFO - System Memory Usage: 25.4
+2019-05-15 05:32:02,836 - SurveillanceWebServer - INFO - CPU Load: 1.1
+2019-05-15 05:32:02,837 - SurveillanceWebServer - INFO - System Memory Usage: 25.4
+2019-05-15 05:32:03,438 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:32:03] "POST /socket.io/?EIO=3&transport=polling&t=1557898323433-12&sid=32824b925d5546768ce393d025f0ba09 HTTP/1.1" 200 -
+2019-05-15 05:32:07,966 - SurveillanceWebServer - INFO - CPU Load: 6.4
+2019-05-15 05:32:07,966 - SurveillanceWebServer - INFO - System Memory Usage: 25.4
+2019-05-15 05:32:09,574 - SurveillanceWebServer - INFO - retrain button pushed. clearing event in surveillance objt and calling trainingEvent
+2019-05-15 05:32:26,651 - SurveillanceWebServer - INFO - CPU Load: 25.9
+2019-05-15 05:32:26,652 - SurveillanceWebServer - INFO - System Memory Usage: 25.4
+2019-05-15 05:32:31,780 - SurveillanceWebServer - INFO - CPU Load: 99.6
+2019-05-15 05:32:31,780 - SurveillanceWebServer - INFO - System Memory Usage: 29.9
+2019-05-15 05:32:34,558 - SurveillanceWebServer - INFO - Finished re-training
+2019-05-15 05:32:34,559 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:32:34] "POST /retrain_classifier HTTP/1.1" 200 -
+2019-05-15 05:32:36,907 - SurveillanceWebServer - INFO - CPU Load: 2.0
+2019-05-15 05:32:36,908 - SurveillanceWebServer - INFO - System Memory Usage: 25.3
+2019-05-15 05:32:42,037 - SurveillanceWebServer - INFO - CPU Load: 1.0
+2019-05-15 05:32:42,038 - SurveillanceWebServer - INFO - System Memory Usage: 25.3
+2019-05-15 05:32:47,165 - SurveillanceWebServer - INFO - CPU Load: 2.5
+2019-05-15 05:32:47,166 - SurveillanceWebServer - INFO - System Memory Usage: 25.3
+2019-05-15 05:32:52,295 - SurveillanceWebServer - INFO - CPU Load: 0.5
+2019-05-15 05:32:52,296 - SurveillanceWebServer - INFO - System Memory Usage: 25.3
+2019-05-15 05:32:57,425 - SurveillanceWebServer - INFO - CPU Load: 0.4
+2019-05-15 05:32:57,426 - SurveillanceWebServer - INFO - System Memory Usage: 25.0
+2019-05-15 05:33:02,555 - SurveillanceWebServer - INFO - CPU Load: 0.9
+2019-05-15 05:33:02,556 - SurveillanceWebServer - INFO - System Memory Usage: 25.0
+2019-05-15 05:33:03,440 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:33:03] "POST /socket.io/?EIO=3&transport=polling&t=1557898383435-13&sid=32824b925d5546768ce393d025f0ba09 HTTP/1.1" 400 -
+2019-05-15 05:33:04,177 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-15 05:33:04,933 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:33:04] "GET /socket.io/?EIO=3&transport=polling&t=1557898384927-14 HTTP/1.1" 200 -
+2019-05-15 05:33:04,945 - SurveillanceWebServer - INFO - client connected
+2019-05-15 05:33:04,945 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:33:04] "POST /socket.io/?EIO=3&transport=polling&t=1557898384937-15&sid=7790280766ef40828b10aea6ad08f309 HTTP/1.1" 200 -
+2019-05-15 05:33:04,950 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:33:04] "GET /socket.io/?EIO=3&transport=polling&t=1557898384938-16&sid=7790280766ef40828b10aea6ad08f309 HTTP/1.1" 200 -
+2019-05-15 05:33:05,172 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:33:05] "GET /socket.io/?EIO=3&transport=polling&t=1557898384955-17&sid=7790280766ef40828b10aea6ad08f309 HTTP/1.1" 200 -
+2019-05-15 05:33:07,199 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:33:07] "GET /socket.io/?EIO=3&transport=polling&t=1557898385176-18&sid=7790280766ef40828b10aea6ad08f309 HTTP/1.1" 200 -
+2019-05-15 05:33:07,685 - SurveillanceWebServer - INFO - CPU Load: 0.5
+2019-05-15 05:33:07,686 - SurveillanceWebServer - INFO - System Memory Usage: 25.0
+2019-05-15 05:33:07,723 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:33:07] "GET /socket.io/?EIO=3&transport=polling&t=1557898387204-19&sid=7790280766ef40828b10aea6ad08f309 HTTP/1.1" 200 -
+2019-05-15 05:33:12,815 - SurveillanceWebServer - INFO - CPU Load: 0.4
+2019-05-15 05:33:12,816 - SurveillanceWebServer - INFO - System Memory Usage: 25.0
+2019-05-15 05:33:17,945 - SurveillanceWebServer - INFO - CPU Load: 0.5
+2019-05-15 05:33:17,946 - SurveillanceWebServer - INFO - System Memory Usage: 25.0
+2019-05-15 05:33:23,073 - SurveillanceWebServer - INFO - CPU Load: 0.5
+2019-05-15 05:33:23,074 - SurveillanceWebServer - INFO - System Memory Usage: 25.0
+2019-05-15 05:33:28,204 - SurveillanceWebServer - INFO - CPU Load: 1.1
+2019-05-15 05:33:28,205 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:33:29,944 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:33:29] "POST /socket.io/?EIO=3&transport=polling&t=1557898409939-20&sid=7790280766ef40828b10aea6ad08f309 HTTP/1.1" 200 -
+2019-05-15 05:33:33,336 - SurveillanceWebServer - INFO - CPU Load: 3.1
+2019-05-15 05:33:33,336 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:33:38,466 - SurveillanceWebServer - INFO - CPU Load: 1.4
+2019-05-15 05:33:38,467 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:33:43,597 - SurveillanceWebServer - INFO - CPU Load: 0.4
+2019-05-15 05:33:43,597 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:33:48,727 - SurveillanceWebServer - INFO - CPU Load: 1.1
+2019-05-15 05:33:48,728 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:33:53,856 - SurveillanceWebServer - INFO - CPU Load: 1.3
+2019-05-15 05:33:53,856 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:33:58,986 - SurveillanceWebServer - INFO - CPU Load: 0.3
+2019-05-15 05:33:58,987 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:34:04,116 - SurveillanceWebServer - INFO - CPU Load: 3.4
+2019-05-15 05:34:04,118 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:34:09,248 - SurveillanceWebServer - INFO - CPU Load: 3.1
+2019-05-15 05:34:09,249 - SurveillanceWebServer - INFO - System Memory Usage: 24.9
+2019-05-15 05:34:14,376 - SurveillanceWebServer - INFO - CPU Load: 35.7
+2019-05-15 05:34:14,377 - SurveillanceWebServer - INFO - System Memory Usage: 26.5
+2019-05-15 05:34:19,503 - SurveillanceWebServer - INFO - CPU Load: 25.0
+2019-05-15 05:34:19,504 - SurveillanceWebServer - INFO - System Memory Usage: 28.1
+2019-05-15 05:34:24,633 - SurveillanceWebServer - INFO - CPU Load: 5.7
+2019-05-15 05:34:24,633 - SurveillanceWebServer - INFO - System Memory Usage: 28.4
+2019-05-15 05:34:29,943 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:29] "POST /socket.io/?EIO=3&transport=polling&t=1557898469940-21&sid=7790280766ef40828b10aea6ad08f309 HTTP/1.1" 400 -
+2019-05-15 05:34:29,977 - SurveillanceWebServer - INFO - CPU Load: 25.6
+2019-05-15 05:34:29,978 - SurveillanceWebServer - INFO - System Memory Usage: 28.3
+2019-05-15 05:34:29,978 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-15 05:34:30,177 - SurveillanceWebServer - INFO - Addding a new camera with url: 
+2019-05-15 05:34:30,179 - SurveillanceWebServer - INFO - rtsp://172.20.10.14:8080/h264_pcm.sdp
+2019-05-15 05:34:30,179 - SurveillanceWebServer - INFO - false
+2019-05-15 05:34:30,182 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:30] "POST /add_camera HTTP/1.1" 200 -
+2019-05-15 05:34:30,360 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:30] "GET /video_streamer/0 HTTP/1.1" 200 -
+2019-05-15 05:34:30,503 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:30] "GET /socket.io/?EIO=3&transport=polling&t=1557898470500-22 HTTP/1.1" 200 -
+2019-05-15 05:34:30,508 - SurveillanceWebServer - INFO - client connected
+2019-05-15 05:34:30,509 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:30] "POST /socket.io/?EIO=3&transport=polling&t=1557898470505-23&sid=2756bab2175744e6a7a769cd3a1e8327 HTTP/1.1" 200 -
+2019-05-15 05:34:30,509 - SurveillanceWebServer - INFO - {'url': u'rtsp://172.20.10.14:8080/h264_pcm.sdp', 'camNum': 0}
+2019-05-15 05:34:30,510 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:30] "GET /socket.io/?EIO=3&transport=polling&t=1557898470505-24&sid=2756bab2175744e6a7a769cd3a1e8327 HTTP/1.1" 200 -
+2019-05-15 05:34:31,328 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:31] "GET /socket.io/?EIO=3&transport=polling&t=1557898470512-25&sid=2756bab2175744e6a7a769cd3a1e8327 HTTP/1.1" 200 -
+2019-05-15 05:34:32,982 - SurveillanceWebServer - INFO - FPS: 30.8530613596 14.1015060016
+2019-05-15 05:34:34,221 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:34] "GET /socket.io/?EIO=3&transport=polling&t=1557898471334-26&sid=2756bab2175744e6a7a769cd3a1e8327 HTTP/1.1" 200 -
+2019-05-15 05:34:34,339 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:34] "GET /socket.io/?EIO=3&transport=polling&t=1557898474223-27&sid=2756bab2175744e6a7a769cd3a1e8327 HTTP/1.1" 200 -
+2019-05-15 05:34:35,105 - SurveillanceWebServer - INFO - CPU Load: 43.7
+2019-05-15 05:34:35,105 - SurveillanceWebServer - INFO - System Memory Usage: 29.9
+2019-05-15 05:34:35,111 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:35] "GET /socket.io/?EIO=3&transport=polling&t=1557898474341-28&sid=2756bab2175744e6a7a769cd3a1e8327 HTTP/1.1" 200 -
+2019-05-15 05:34:38,108 - SurveillanceWebServer - INFO - FPS: 33.7389616275 10.7666732723
+2019-05-15 05:34:40,233 - SurveillanceWebServer - INFO - CPU Load: 43.3
+2019-05-15 05:34:40,235 - SurveillanceWebServer - INFO - System Memory Usage: 29.8
+2019-05-15 05:34:43,239 - SurveillanceWebServer - INFO - FPS: 34.4358520696 13.6482685462
+2019-05-15 05:34:45,362 - SurveillanceWebServer - INFO - CPU Load: 39.0
+2019-05-15 05:34:45,363 - SurveillanceWebServer - INFO - System Memory Usage: 29.7
+2019-05-15 05:34:48,384 - SurveillanceWebServer - INFO - FPS: 34.1975743822 14.0425759865
+2019-05-15 05:34:50,509 - SurveillanceWebServer - INFO - CPU Load: 41.2
+2019-05-15 05:34:50,510 - SurveillanceWebServer - INFO - System Memory Usage: 29.7
+2019-05-15 05:34:53,513 - SurveillanceWebServer - INFO - FPS: 34.1107094497 12.3084218836
+2019-05-15 05:34:54,200 - SurveillanceWebServer - INFO - {'confidence': 62, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:34:52AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:34:55,508 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:55] "POST /socket.io/?EIO=3&transport=polling&t=1557898495505-29&sid=2756bab2175744e6a7a769cd3a1e8327 HTTP/1.1" 200 -
+2019-05-15 05:34:55,635 - SurveillanceWebServer - INFO - CPU Load: 44.5
+2019-05-15 05:34:55,636 - SurveillanceWebServer - INFO - System Memory Usage: 30.0
+2019-05-15 05:34:57,068 - SurveillanceWebServer - INFO - unknownconfidence: 50
+2019-05-15 05:34:57,069 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:34:57] "POST /create_alert HTTP/1.1" 200 -
+2019-05-15 05:34:58,204 - SurveillanceWebServer - INFO - {'confidence': 62, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:34:52AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:34:58,636 - SurveillanceWebServer - INFO - FPS: 23.3668347588 13.4850858173
+2019-05-15 05:35:00,762 - SurveillanceWebServer - INFO - CPU Load: 38.4
+2019-05-15 05:35:00,762 - SurveillanceWebServer - INFO - System Memory Usage: 30.0
+2019-05-15 05:35:02,208 - SurveillanceWebServer - INFO - {'confidence': 62, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:34:52AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:03,767 - SurveillanceWebServer - INFO - FPS: 10.7502612187 13.17189872
+2019-05-15 05:35:05,890 - SurveillanceWebServer - INFO - CPU Load: 39.4
+2019-05-15 05:35:05,891 - SurveillanceWebServer - INFO - System Memory Usage: 30.1
+2019-05-15 05:35:06,213 - SurveillanceWebServer - INFO - {'confidence': 70, 'thumbnailNum': 7, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:04AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:08,896 - SurveillanceWebServer - INFO - FPS: 30.4952686319 13.6680424963
+2019-05-15 05:35:10,247 - SurveillanceWebServer - INFO - {'confidence': 70, 'thumbnailNum': 7, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:04AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:11,021 - SurveillanceWebServer - INFO - CPU Load: 35.8
+2019-05-15 05:35:11,021 - SurveillanceWebServer - INFO - System Memory Usage: 30.0
+2019-05-15 05:35:14,024 - SurveillanceWebServer - INFO - FPS: 12.7045389032 14.1369152345
+2019-05-15 05:35:14,267 - SurveillanceWebServer - INFO - {'confidence': 66, 'thumbnailNum': 2, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:13AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:16,211 - SurveillanceWebServer - INFO - CPU Load: 43.8
+2019-05-15 05:35:16,211 - SurveillanceWebServer - INFO - System Memory Usage: 30.3
+2019-05-15 05:35:18,273 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:19,215 - SurveillanceWebServer - INFO - FPS: 42.2466526101 26.2040821427
+2019-05-15 05:35:21,338 - SurveillanceWebServer - INFO - CPU Load: 27.1
+2019-05-15 05:35:21,338 - SurveillanceWebServer - INFO - System Memory Usage: 30.3
+2019-05-15 05:35:22,277 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:24,340 - SurveillanceWebServer - INFO - FPS: 40.124657401 26.2782890904
+2019-05-15 05:35:26,280 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:26,464 - SurveillanceWebServer - INFO - CPU Load: 45.2
+2019-05-15 05:35:26,467 - SurveillanceWebServer - INFO - System Memory Usage: 30.4
+2019-05-15 05:35:29,468 - SurveillanceWebServer - INFO - FPS: 35.3633871296 27.199497812
+2019-05-15 05:35:30,284 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:31,592 - SurveillanceWebServer - INFO - CPU Load: 43.8
+2019-05-15 05:35:31,592 - SurveillanceWebServer - INFO - System Memory Usage: 30.3
+2019-05-15 05:35:34,288 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:34,594 - SurveillanceWebServer - INFO - FPS: 33.4897744089 27.4547363515
+2019-05-15 05:35:36,718 - SurveillanceWebServer - INFO - CPU Load: 40.3
+2019-05-15 05:35:36,719 - SurveillanceWebServer - INFO - System Memory Usage: 30.3
+2019-05-15 05:35:38,294 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:39,720 - SurveillanceWebServer - INFO - FPS: 25.7022032803 13.7611017532
+2019-05-15 05:35:41,844 - SurveillanceWebServer - INFO - CPU Load: 41.6
+2019-05-15 05:35:41,845 - SurveillanceWebServer - INFO - System Memory Usage: 30.3
+2019-05-15 05:35:43,468 - SurveillanceWebServer - INFO - Addding a new camera with url: 
+2019-05-15 05:35:43,469 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:43,469 - SurveillanceWebServer - INFO - rtsp://172.20.10.7:8080/h264_pcm.sdp
+2019-05-15 05:35:43,470 - SurveillanceWebServer - INFO - false
+2019-05-15 05:35:43,471 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:35:43] "POST /add_camera HTTP/1.1" 200 -
+2019-05-15 05:35:43,513 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:35:43] "GET /video_streamer/1 HTTP/1.1" 200 -
+2019-05-15 05:35:44,848 - SurveillanceWebServer - INFO - FPS: 29.6271376401 19.8823640949
+2019-05-15 05:35:44,849 - SurveillanceWebServer - INFO - FPS: 21.2023785653 29.5068893663
+2019-05-15 05:35:46,973 - SurveillanceWebServer - INFO - CPU Load: 72.4
+2019-05-15 05:35:46,973 - SurveillanceWebServer - INFO - System Memory Usage: 30.7
+2019-05-15 05:35:47,472 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:49,977 - SurveillanceWebServer - INFO - FPS: 15.8526373478 17.0266634299
+2019-05-15 05:35:49,979 - SurveillanceWebServer - INFO - FPS: 16.4331711292 18.7356455333
+2019-05-15 05:35:51,476 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:52,105 - SurveillanceWebServer - INFO - CPU Load: 67.8
+2019-05-15 05:35:52,105 - SurveillanceWebServer - INFO - System Memory Usage: 30.8
+2019-05-15 05:35:55,108 - SurveillanceWebServer - INFO - FPS: 29.5262624366 10.2867978984
+2019-05-15 05:35:55,108 - SurveillanceWebServer - INFO - FPS: 21.4759727021 26.205883088
+2019-05-15 05:35:55,480 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:35:55,512 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:35:55] "POST /socket.io/?EIO=3&transport=polling&t=1557898555506-30&sid=2756bab2175744e6a7a769cd3a1e8327 HTTP/1.1" 400 -
+2019-05-15 05:35:56,086 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:35:56] "GET /socket.io/?EIO=3&transport=polling&t=1557898556084-31 HTTP/1.1" 200 -
+2019-05-15 05:35:56,101 - SurveillanceWebServer - INFO - client connected
+2019-05-15 05:35:56,101 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:35:56] "POST /socket.io/?EIO=3&transport=polling&t=1557898556092-32&sid=d3c43fccc54b4e23b2ffd8dc98abb9ab HTTP/1.1" 200 -
+2019-05-15 05:35:56,102 - SurveillanceWebServer - INFO - {'url': u'rtsp://172.20.10.14:8080/h264_pcm.sdp', 'camNum': 0}
+2019-05-15 05:35:56,102 - SurveillanceWebServer - INFO - {'url': u'rtsp://172.20.10.7:8080/h264_pcm.sdp', 'camNum': 1}
+2019-05-15 05:35:56,102 - SurveillanceWebServer - INFO - {'alert_id': 'alert_1', 'alert_message': u'Alert if buvi was recognised in camera 0 with a confidence greater than 50'}
+2019-05-15 05:35:56,104 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-15 05:35:56,106 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:35:56] "GET /socket.io/?EIO=3&transport=polling&t=1557898556094-33&sid=d3c43fccc54b4e23b2ffd8dc98abb9ab HTTP/1.1" 200 -
+2019-05-15 05:35:57,234 - SurveillanceWebServer - INFO - CPU Load: 70.7
+2019-05-15 05:35:57,235 - SurveillanceWebServer - INFO - System Memory Usage: 31.2
+2019-05-15 05:35:57,247 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 05:35:57] "GET /socket.io/?EIO=3&transport=polling&t=1557898556113-34&sid=d3c43fccc54b4e23b2ffd8dc98abb9ab HTTP/1.1" 200 -
+2019-05-15 05:35:59,484 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 05:36:00,248 - SurveillanceWebServer - INFO - FPS: 22.1323040148 10.0505510389
+2019-05-15 05:36:00,249 - SurveillanceWebServer - INFO - FPS: 15.3409548936 19.9573664657
+2019-05-15 05:36:02,373 - SurveillanceWebServer - INFO - CPU Load: 72.7
+2019-05-15 05:36:02,374 - SurveillanceWebServer - INFO - System Memory Usage: 31.2
+2019-05-15 05:36:03,488 - SurveillanceWebServer - INFO - {'confidence': 73, 'thumbnailNum': 4, 'prediction': 'buvi', 'camera': 0, 'timeD': 'Wednesday 15 May 2019 07:35:14AM', 'identity': 'person20190515053452161'}
+2019-05-15 06:26:26,369 - werkzeug - WARNING - WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+2019-05-15 06:26:26,369 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-05-15 06:26:26,657 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:26:26] "GET / HTTP/1.1" 200 -
+2019-05-15 06:26:26,768 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:26:26] "GET /favicon.ico HTTP/1.1" 404 -
+2019-05-15 06:26:35,883 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:26:35] "POST / HTTP/1.1" 302 -
+2019-05-15 06:26:35,922 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:26:35] "GET /home HTTP/1.1" 200 -
+2019-05-15 06:26:36,092 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:26:36] "GET /socket.io/?EIO=3&transport=polling&t=1557901596090-0 HTTP/1.1" 200 -
+2019-05-15 06:26:36,134 - SurveillanceWebServer - INFO - client connected
+2019-05-15 06:26:36,134 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:26:36] "POST /socket.io/?EIO=3&transport=polling&t=1557901596129-1&sid=9609e87a77914d28bec6294a6a75c19f HTTP/1.1" 200 -
+2019-05-15 06:26:36,134 - SurveillanceWebServer - INFO - Starting alarmStateThread
+2019-05-15 06:26:36,134 - SurveillanceWebServer - INFO - Starting facesUpdateThread
+2019-05-15 06:26:36,137 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:26:36] "GET /socket.io/?EIO=3&transport=polling&t=1557901596130-2&sid=9609e87a77914d28bec6294a6a75c19f HTTP/1.1" 200 -
+2019-05-15 06:26:36,138 - SurveillanceWebServer - INFO - Starting monitoringThread
+2019-05-15 06:26:36,144 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:26:36] "GET /socket.io/?EIO=3&transport=polling&t=1557901596142-3&sid=9609e87a77914d28bec6294a6a75c19f HTTP/1.1" 200 -
+2019-05-15 06:26:36,147 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:26:36] "GET /socket.io/?EIO=3&transport=polling&t=1557901596145-4&sid=9609e87a77914d28bec6294a6a75c19f HTTP/1.1" 200 -
+2019-05-15 06:26:38,266 - SurveillanceWebServer - INFO - CPU Load: 7.5
+2019-05-15 06:26:38,267 - SurveillanceWebServer - INFO - System Memory Usage: 26.5
+2019-05-15 06:26:38,272 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:26:38] "GET /socket.io/?EIO=3&transport=polling&t=1557901596150-5&sid=9609e87a77914d28bec6294a6a75c19f HTTP/1.1" 200 -
+2019-05-15 06:26:43,395 - SurveillanceWebServer - INFO - CPU Load: 6.4
+2019-05-15 06:26:43,397 - SurveillanceWebServer - INFO - System Memory Usage: 26.5
+2019-05-15 06:26:44,868 - SurveillanceWebServer - INFO - retrain button pushed. clearing event in surveillance objt and calling trainingEvent
+2019-05-15 06:27:01,139 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:27:01] "POST /socket.io/?EIO=3&transport=polling&t=1557901621131-6&sid=9609e87a77914d28bec6294a6a75c19f HTTP/1.1" 200 -
+2019-05-15 06:27:02,141 - SurveillanceWebServer - INFO - CPU Load: 72.9
+2019-05-15 06:27:02,142 - SurveillanceWebServer - INFO - System Memory Usage: 30.5
+2019-05-15 06:27:07,268 - SurveillanceWebServer - INFO - CPU Load: 100.0
+2019-05-15 06:27:07,268 - SurveillanceWebServer - INFO - System Memory Usage: 33.6
+2019-05-15 06:27:08,054 - SurveillanceWebServer - INFO - Finished re-training
+2019-05-15 06:27:08,056 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:27:08] "POST /retrain_classifier HTTP/1.1" 200 -
+2019-05-15 06:27:12,397 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-15 06:27:12,397 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:27:17,527 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-15 06:27:17,527 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:27:22,656 - SurveillanceWebServer - INFO - CPU Load: 0.2
+2019-05-15 06:27:22,657 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:27:27,786 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-15 06:27:27,787 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:27:32,916 - SurveillanceWebServer - INFO - CPU Load: 0.2
+2019-05-15 06:27:32,917 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:27:38,044 - SurveillanceWebServer - INFO - CPU Load: 4.5
+2019-05-15 06:27:38,045 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:27:43,174 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-15 06:27:43,175 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:27:48,304 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-15 06:27:48,304 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:27:53,434 - SurveillanceWebServer - INFO - CPU Load: 0.0
+2019-05-15 06:27:53,434 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:27:58,561 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-15 06:27:58,562 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:28:01,138 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:28:01] "POST /socket.io/?EIO=3&transport=polling&t=1557901681133-7&sid=9609e87a77914d28bec6294a6a75c19f HTTP/1.1" 400 -
+2019-05-15 06:28:01,926 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:28:01] "GET /socket.io/?EIO=3&transport=polling&t=1557901681920-8 HTTP/1.1" 200 -
+2019-05-15 06:28:01,938 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:28:01] "POST /socket.io/?EIO=3&transport=polling&t=1557901681930-9&sid=1287ad4caa6e43828172f7d23e2a023a HTTP/1.1" 200 -
+2019-05-15 06:28:01,939 - SurveillanceWebServer - INFO - client connected
+2019-05-15 06:28:01,943 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-15 06:28:01,953 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:28:01] "GET /socket.io/?EIO=3&transport=polling&t=1557901681931-10&sid=1287ad4caa6e43828172f7d23e2a023a HTTP/1.1" 200 -
+2019-05-15 06:28:03,691 - SurveillanceWebServer - INFO - CPU Load: 0.5
+2019-05-15 06:28:03,692 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:28:03,733 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:28:03] "GET /socket.io/?EIO=3&transport=polling&t=1557901681958-11&sid=1287ad4caa6e43828172f7d23e2a023a HTTP/1.1" 200 -
+2019-05-15 06:28:08,821 - SurveillanceWebServer - INFO - CPU Load: 6.9
+2019-05-15 06:28:08,822 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:28:13,949 - SurveillanceWebServer - INFO - CPU Load: 15.0
+2019-05-15 06:28:13,950 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:28:19,079 - SurveillanceWebServer - INFO - CPU Load: 2.3
+2019-05-15 06:28:19,079 - SurveillanceWebServer - INFO - System Memory Usage: 27.3
+2019-05-15 06:28:24,207 - SurveillanceWebServer - INFO - CPU Load: 1.9
+2019-05-15 06:28:24,208 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:28:26,936 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:28:26] "POST /socket.io/?EIO=3&transport=polling&t=1557901706931-12&sid=1287ad4caa6e43828172f7d23e2a023a HTTP/1.1" 200 -
+2019-05-15 06:28:29,337 - SurveillanceWebServer - INFO - CPU Load: 2.6
+2019-05-15 06:28:29,337 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:28:34,467 - SurveillanceWebServer - INFO - CPU Load: 2.9
+2019-05-15 06:28:34,467 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:28:39,597 - SurveillanceWebServer - INFO - CPU Load: 12.6
+2019-05-15 06:28:39,597 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:28:44,727 - SurveillanceWebServer - INFO - CPU Load: 14.6
+2019-05-15 06:28:44,727 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:28:49,855 - SurveillanceWebServer - INFO - CPU Load: 0.0
+2019-05-15 06:28:49,856 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:28:54,985 - SurveillanceWebServer - INFO - CPU Load: 2.1
+2019-05-15 06:28:54,986 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:29:00,115 - SurveillanceWebServer - INFO - CPU Load: 1.2
+2019-05-15 06:29:00,116 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:29:05,245 - SurveillanceWebServer - INFO - CPU Load: 0.0
+2019-05-15 06:29:05,246 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:29:10,375 - SurveillanceWebServer - INFO - CPU Load: 0.0
+2019-05-15 06:29:10,376 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:29:15,505 - SurveillanceWebServer - INFO - CPU Load: 0.4
+2019-05-15 06:29:15,506 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:29:20,635 - SurveillanceWebServer - INFO - CPU Load: 0.4
+2019-05-15 06:29:20,635 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:29:25,765 - SurveillanceWebServer - INFO - CPU Load: 0.1
+2019-05-15 06:29:25,766 - SurveillanceWebServer - INFO - System Memory Usage: 27.4
+2019-05-15 06:29:26,938 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:29:26] "POST /socket.io/?EIO=3&transport=polling&t=1557901766933-13&sid=1287ad4caa6e43828172f7d23e2a023a HTTP/1.1" 400 -
+2019-05-15 06:29:27,849 - SurveillanceWebServer - INFO - Client disconnected
+2019-05-15 06:29:28,134 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:29:28] "GET /socket.io/?EIO=3&transport=polling&t=1557901768129-14 HTTP/1.1" 200 -
+2019-05-15 06:29:28,144 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:29:28] "POST /socket.io/?EIO=3&transport=polling&t=1557901768138-15&sid=22974663b2f54e51ab5062ee02609452 HTTP/1.1" 200 -
+2019-05-15 06:29:28,146 - SurveillanceWebServer - INFO - client connected
+2019-05-15 06:29:28,150 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:29:28] "GET /socket.io/?EIO=3&transport=polling&t=1557901768139-16&sid=22974663b2f54e51ab5062ee02609452 HTTP/1.1" 200 -
+2019-05-15 06:29:28,874 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:29:28] "GET /socket.io/?EIO=3&transport=polling&t=1557901768156-17&sid=22974663b2f54e51ab5062ee02609452 HTTP/1.1" 200 -
+2019-05-15 06:29:30,896 - SurveillanceWebServer - INFO - CPU Load: 9.3
+2019-05-15 06:29:30,897 - SurveillanceWebServer - INFO - System Memory Usage: 27.0
+2019-05-15 06:29:30,902 - werkzeug - INFO - 172.17.0.1 - - [15/May/2019 06:29:30] "GET /socket.io/?EIO=3&transport=polling&t=1557901768878-18&sid=22974663b2f54e51ab5062ee02609452 HTTP/1.1" 200 -
