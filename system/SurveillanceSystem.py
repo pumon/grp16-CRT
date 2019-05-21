@@ -529,12 +529,12 @@ class SurveillanceSystem(object):
                         if alert.person == "unknown" and (100 - person.confidence) >= alert.confidence:
                             logger.info( "alertTest2" + alert.camera)
                             cv2.imwrite("notification/image.png", self.cameras[int(alert.camera)].processing_frame)#
-                            self.take_action(alert)
+                            self.take_action(alert,"")
                             return True
                         elif person.confidence >= alert.confidence:
                             logger.info( "alertTest3" + alert.camera)
                             cv2.imwrite("notification/image.png", self.cameras[int(alert.camera)].processing_frame)#
-                            self.take_action(alert)
+                            self.take_action(alert,"")
                             return True     
                 return False # Person has not been detected check next alert       
 
@@ -543,7 +543,7 @@ class SurveillanceSystem(object):
                 if self.cameras[int(alert.camera)].motion == True: # Has motion been detected
                        logger.info( "alertTest5" + alert.camera)
                        cv2.imwrite("notification/image.png", self.cameras[int(alert.camera)].processing_frame)#
-                       self.take_action(alert)
+                       self.take_action(alert,"")
                        return True
                 else:
                   return False # Motion was not detected check next alert
@@ -556,11 +556,11 @@ class SurveillanceSystem(object):
                         if alert.person == person.identity: # Has person been detected
                             if alert.person == "unknown" and (100 - person.confidence) >= alert.confidence:
                                 cv2.imwrite("notification/image.png", camera.processing_frame)#
-                                self.take_action(alert)
+                                self.take_action(alert,camera)
                                 return True
                             elif person.confidence >= alert.confidence:
                                 cv2.imwrite("notification/image.png", camera.processing_frame)#
-                                self.take_action(alert)
+                                self.take_action(alert,camera)
                                 return True
                
                 return False # Person has not been detected check next alert   
@@ -570,12 +570,12 @@ class SurveillanceSystem(object):
                     for camera in self.cameras: # Look through all cameras
                         if camera.motion == True: # Has motion been detected
                             cv2.imwrite("notification/image.png", camera.processing_frame)#
-                            self.take_action(alert)
+                            self.take_action(alert,camera)
                             return True
 
                 return False # Motion was not detected check next camera
 
-   def take_action(self,alert): 
+   def take_action(self,alert,detail): 
         """Sends email alert and/or triggers the alarm"""
 
        # logger.info( "Taking action: ==" + alert.actions)
@@ -583,14 +583,14 @@ class SurveillanceSystem(object):
             alert.eventTime = time.time()  
             if alert.actions['email_alert'] == 'true':
                 logger.info( "email notification being sent")
-                self.send_email_notification_alert(alert)
+                self.send_email_notification_alert(alert,detail)
             if alert.actions['trigger_alarm'] == 'true':
                 logger.info( "triggering alarm1")
                 self.trigger_alarm()
                 logger.info( "alarm1 triggered")
             alert.action_taken = True
 
-   def send_email_notification_alert(self,alert):
+   def send_email_notification_alert(self,alert,detail):
       """ Code produced in this tutorial - http://naelshiab.com/tutorial-send-email-python/"""
 
       fromaddr = "noreply.vemanait@gmail.com"
@@ -601,8 +601,12 @@ class SurveillanceSystem(object):
       msg['From'] = fromaddr
       msg['To'] = toaddr
       msg['Subject'] = "Criminal Recognition & Tracking"
-       
-      body = "NOTIFICATION ALERT:" +  alert.alertString + ""
+      if detail!="":
+          asset=detail.url.split("/")
+          body = "NOTIFICATION ALERT:" +  alert.alertString + " with ip "+ asset[2]
+      else:
+          body = "NOTIFICATION ALERT:" +  alert.alertString + ""
+
        
       msg.attach(MIMEText(body, 'plain'))
        
@@ -786,7 +790,7 @@ class Alert(object):
         if  event == 'Motion':
             self.alertString = "Motion detected in camera " + camera 
         else:
-            self.alertString = person + " was recognised in camera " + camera + " with a confidence greater than " + str(confidence)
+            self.alertString = person + " was recognised in camera " + camera + ""
 
         self.id = "alert_" + str(Alert.alert_count)
         self.event_occurred = False
