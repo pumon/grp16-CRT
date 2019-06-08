@@ -1,5 +1,3 @@
-
-
 import time
 import argparse
 import cv2
@@ -84,16 +82,6 @@ logger.setLevel(logging.INFO)
 #                    )
                   
 class SurveillanceSystem(object):
-   """ The SurveillanceSystem object is the heart of this application.
-   It provides all the central proccessing and ties everything
-   together. It generates camera frame proccessing threads as 
-   well as an alert monitoring thread. A camera frame proccessing 
-   thread can process a camera using 5 different processing methods.
-   These methods aim to allow the user to adapt the system to their 
-   needs and can be found in the process_frame() function. The alert 
-   monitoring thread continually checks the system state and takes 
-   action if a particular event occurs. """ 
-
    def __init__(self):
 
         self.recogniser = FaceRecogniser.FaceRecogniser()
@@ -145,11 +133,6 @@ class SurveillanceSystem(object):
         self.cameraProcessingThreads.append(thread)
         thread.start()
 
-   def remove_camera(self, camID):
-        """remove a camera to the System and kill its processing thread"""
-        self.cameras.pop(camID)
-        self.cameraProcessingThreads.pop(camID)
-        self.captureThread.stop = False
 
    def process_frame(self,camera):
         """This function performs all the frame proccessing.
@@ -181,56 +164,8 @@ class SurveillanceSystem(object):
 
              FPScount += 1
              camera.tempFrame = frame
-        
-
-             if camera.cameraFunction == "detect_recognise":
-                    # This approach peroforms basic face detection and 
-                    # recognition using OpenCV, Dlib and Openface
-
-                    training_blocker = self.trainingEvent.wait()  
-
-                    frame = cv2.flip(frame, 1) # converts frame from BGR (OpenCV format) to RGB (Dlib format)
-                    camera.faceBoxes = camera.faceDetector.detect_faces(frame,camera.dlibDetection) 
-                    if self.drawing == True:
-                         frame = ImageUtils.draw_boxes(frame, camera.faceBoxes, camera.dlibDetection)
-                    camera.processing_frame = frame
-         
-                    logger.info('////  FACES DETECTED: '+ str(len(camera.faceBoxes)) +' //')
-                    for face_bb in camera.faceBoxes: 
-                        
-                        # Used to reduce false positives from opencv haar cascade detector.
-                        # If face isn't detected using more rigorous paramters in the detectMultiscale() function read the next frame               
-                        if camera.dlibDetection == False:
-                              x, y, w, h = face_bb
-                              face_bb = dlib.rectangle(long(x), long(y), long(x+w), long(y+h))
-                              faceimg = ImageUtils.crop(frame, face_bb, dlibRect = True)
-                              if len(camera.faceDetector.detect_cascadeface_accurate(faceimg)) == 0:
-                                    continue
-
-                        # returns a dictionary that contains name, confidence and representation and an alignedFace (numpy array)
-                        predictions, alignedFace = self.recogniser.make_prediction(frame,face_bb) 
-
-                        with camera.peopleDictLock:
-                          # If the person has already been detected and his new confidence is greater update persons details, otherwise create a new person
-                          if camera.people.has_key(predictions['name']): 
-                              if camera.people[predictions['name']].confidence < predictions['confidence']:
-                                  camera.people[predictions['name']].confidence = predictions['confidence']
-
-                                  if camera.people[predictions['name']].confidence > self.confidenceThreshold:
-                                     camera.people[predictions['name']].identity = predictions['name']
-
-                                  camera.people[predictions['name']].set_thumbnail(alignedFace) 
-                                  camera.people[predictions['name']].add_to_thumbnails(alignedFace)  
-                                  camera.people[predictions['name']].set_time()
-                          else: 
-                              if predictions['confidence'] > self.confidenceThreshold:
-                                  camera.people[predictions['name']] = Person(predictions['rep'],predictions['confidence'], alignedFace, predictions['name'])
-                              else: 
-                                  camera.people[predictions['name']] = Person(predictions['rep'],predictions['confidence'], alignedFace, "unknown")
-                   
-                    camera.processing_frame = frame # Used for streaming proccesed frames to client and email alerts, but mainly used for testing purposes
-
-             elif camera.cameraFunction == "detect_recognise_track":
+    
+             if camera.cameraFunction == "detect_recognise_track":
                
 
                 training_blocker = self.trainingEvent.wait()  # Wait if classifier is being trained 
@@ -418,75 +353,6 @@ class SurveillanceSystem(object):
                         del camera.trackers[i]
                         continue
 
-             elif camera.cameraFunction == "testing":
-             # Used for testing puposes
-                    training_blocker = self.trainingEvent.wait()  
-                    # tempframe = frame
-                    frame = cv2.flip(frame, 1)
-
-                    camera.faceBoxes = camera.faceDetector.detect_faces(frame,camera.dlibDetection)
-                 
-
-                    if self.drawing == True:
-                         frame = ImageUtils.draw_boxes(frame, camera.faceBoxes, camera.dlibDetection)
-
-                    camera.processing_frame = frame
-                   
-         
-                    logger.debug('////  FACES DETECTED: '+ str(len(camera.faceBoxes)) +' //')
-
-                    for face_bb in camera.faceBoxes: 
-                        result = ""
-                        # used to reduce false positives from opencv haar cascade detector
-                        if camera.dlibDetection == False:
-                              x, y, w, h = face_bb
-                              face_bb = dlib.rectangle(long(x), long(y), long(x+w), long(y+h))
-                              faceimg = ImageUtils.crop(frame, face_bb, dlibRect = True)
-                              if len(camera.faceDetector.detect_cascadeface_accurate(faceimg)) == 0:
-                                    continue
-                        with self.testingResultsLock:
-                            self.detetectionsCount += 1 
-                           
-                            predictions, alignedFace = self.recogniser.make_prediction(frame,face_bb)
-                            cv2.imwrite('testing/results/unconstrained/alignedDetections/60/'+ str( self.detetectionsCount) +'.png',alignedFace)
-                            if predictions['name'] == 'brandon-joffe':
-                                  self.trueDetections += 1
-                                  self.confidence_sum += predictions['confidence']
-                        
-                            result = str( self.detetectionsCount) + ', ' + predictions['name'] + ', ' + str(predictions['confidence'])+ ', ' + str(self.trueDetections) + ', ' + str(self.confidence_sum)
-                            ImageUtils.writeToFile('testing/results/unconstrained/accuracy/results60.txt',result)
-
-             elif camera.cameraFunction == "face_capture":
-             # This will be used to capture faces for training in the surveillance environment 
-             # not fully implmented - was mainly used for face capture during testing
-                    training_blocker = self.trainingEvent.wait()  
-                    # tempframe = frame
-                    frame = cv2.flip(frame, 1)
-
-                    camera.faceBoxes = camera.faceDetector.detect_faces(frame,camera.dlibDetection)
-  
-                    logger.debug('//  FACES DETECTED: '+ str(len(camera.faceBoxes)) +' ///')
-
-
-                    for face_bb in camera.faceBoxes: 
-                        result = ""
-                        # used to reduce false positives from opencv haar cascade detector
-                        if camera.dlibDetection == False:
-                              x, y, w, h = face_bb
-                              face_bb = dlib.rectangle(long(x), long(y), long(x+w), long(y+h))
-                              faceimg = ImageUtils.crop(frame, face_bb, dlibRect = True)
-                              if len(camera.faceDetector.detect_cascadeface_accurate(faceimg)) == 0:
-                                    continue
-                        with self.testingResultsLock:
-                            self.detetectionsCount += 1 
-                           
-                            predictions, alignedFace = self.recogniser.make_prediction(frame,face_bb)
-                            # cv2.imwrite('testing/alignedFacesForTraining/surelda/surelda'+ str(self.detetectionsCount) +'.png',alignedFace)
-                            cv2.imwrite('testing/alignedFacesForTesting/tracy/tracy-'+ str(self.detetectionsCount) +'.png',alignedFace)
-
-                    if self.drawing == True:
-                       frame = ImageUtils.draw_boxes(frame, camera.faceBoxes, camera.dlibDetection)
-                    camera.processing_frame = frame
                                    
    def alert_engine(self):  
         """check alarm state -> check camera -> check event -> 
@@ -584,15 +450,9 @@ class SurveillanceSystem(object):
             if alert.actions['email_alert'] == 'true':
                 logger.info( "email notification being sent")
                 self.send_email_notification_alert(alert,detail)
-            if alert.actions['trigger_alarm'] == 'true':
-                logger.info( "triggering alarm1")
-                self.trigger_alarm()
-                logger.info( "alarm1 triggered")
             alert.action_taken = True
 
    def send_email_notification_alert(self,alert,detail):
-      """ Code produced in this tutorial - http://naelshiab.com/tutorial-send-email-python/"""
-
       fromaddr = "noreply.vemanait@gmail.com"
       toaddr = alert.emailAddress
 
@@ -666,38 +526,7 @@ class SurveillanceSystem(object):
         logger.info("Known faces in our db for: " + name + " ")
       self.peopleDB.append('unknown')
 
-   def change_alarm_state(self):
-      """Sends Raspberry PI a resquest to change the alarm state.
-      192.168.1.35 is the RPI's static IP address port 5000 is used 
-      to access the flask application."""
 
-      r = requests.post('http://192.168.1.35:5000/change_state', data={"password": "admin"})
-      alarm_states = json.loads(r.text)
-
-      logger.info(alarm_states)
-      if alarm_states['state'] == 1:
-          self.alarmState = 'Armed' 
-      else:
-          self.alarmState = 'Disarmed'       
-      self.alarmTriggerd = alarm_states['triggered']
-
-   def trigger_alarm(self):
-       """Sends Raspberry PI a resquest to change to trigger the alarm.
-      192.168.1.35 is the RPI's static IP address port 5000 is used 
-      to access the flask application."""
-
-       r = requests.post('http://192.168.1.35:5000/trigger', data={"password": "admin"})
-       alarm_states = json.loads(r.text) 
-    
-       logger.info(alarm_states)
-
-       if alarm_states['state'] == 1:
-           self.alarmState = 'Armed' 
-       else:
-           self.alarmState = 'Disarmed' 
-       
-       self.alarmTriggerd = alarm_states['triggered']
-       logger.info(self.alarmTriggerd )
 
 #\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 class Person(object):
