@@ -6641,3 +6641,63 @@ TypeError: Required argument 'device' (pos 1) not found
 2019-05-21 11:45:50,646 - SurveillanceWebServer - INFO - FPS: 1.40762823946 8.42401582331
 2019-05-21 11:45:52,771 - SurveillanceWebServer - INFO - CPU Load: 32.9
 2019-05-21 11:45:52,771 - SurveillanceWebServer - INFO - System Memory Usage: 35.1
+2019-06-08 10:29:09,464 - werkzeug - WARNING - WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+2019-06-08 10:29:09,464 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-06-08 10:29:11,526 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:11] "GET / HTTP/1.1" 200 -
+2019-06-08 10:29:11,782 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:11] "GET /static/dist/css/AdminLTE.min.css HTTP/1.1" 304 -
+2019-06-08 10:29:11,784 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:11] "GET /static/plugins/iCheck/icheck.min.js HTTP/1.1" 304 -
+2019-06-08 10:29:11,819 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-06-08 10:29:11,830 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:11] "GET /static/plugins/iCheck/square/blue.css HTTP/1.1" 304 -
+2019-06-08 10:29:11,863 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:11] "GET /static/plugins/jQuery/jquery-2.2.3.min.js HTTP/1.1" 304 -
+2019-06-08 10:29:11,892 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-06-08 10:29:15,387 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:15] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+2019-06-08 10:29:15,485 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:15] "GET /static/plugins/iCheck/square/blue.png HTTP/1.1" 304 -
+2019-06-08 10:29:15,546 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:15] "GET /favicon.ico HTTP/1.1" 404 -
+2019-06-08 10:29:25,190 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:25] "POST / HTTP/1.1" 302 -
+2019-06-08 10:29:25,509 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:25] "GET /home HTTP/1.1" 200 -
+2019-06-08 10:29:25,955 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:25] "GET /static/plugins/bootstrap-slider/slider.css HTTP/1.1" 304 -
+2019-06-08 10:29:26,004 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/iCheck/flat/blue.css HTTP/1.1" 304 -
+2019-06-08 10:29:26,010 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/morris/morris.css HTTP/1.1" 304 -
+2019-06-08 10:29:26,034 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/dist/css/skins/_all-skins.min.css HTTP/1.1" 304 -
+2019-06-08 10:29:26,043 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/datepicker/datepicker3.css HTTP/1.1" 304 -
+2019-06-08 10:29:26,054 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/css/main.css HTTP/1.1" 304 -
+2019-06-08 10:29:26,112 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/morris/morris.min.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,132 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/jvectormap/jquery-jvectormap-1.2.2.css HTTP/1.1" 304 -
+2019-06-08 10:29:26,139 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/ionslider/ion.rangeSlider.min.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,243 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/ionslider/ion.rangeSlider.skinNice.css HTTP/1.1" 304 -
+2019-06-08 10:29:26,278 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/ionslider/ion.rangeSlider.css HTTP/1.1" 304 -
+2019-06-08 10:29:26,280 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/bootstrap-slider/bootstrap-slider.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,404 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/dist/img/admin.jpg HTTP/1.1" 304 -
+2019-06-08 10:29:26,416 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/sparkline/jquery.sparkline.min.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,441 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/knob/jquery.knob.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,471 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js HTTP/1.1" 200 -
+2019-06-08 10:29:26,573 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,581 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,587 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/datepicker/bootstrap-datepicker.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,609 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/slimScroll/jquery.slimscroll.min.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,625 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/fastclick/fastclick.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,630 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/dist/js/app.min.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,639 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/dist/js/pages/dashboard.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,645 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/dist/js/demo.js HTTP/1.1" 304 -
+2019-06-08 10:29:26,651 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:26] "GET /static/plugins/jvectormap/jquery-jvectormap-world-mill-en.js HTTP/1.1" 304 -
+2019-06-08 10:29:27,002 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:27] "GET /socket.io/?EIO=3&transport=polling&t=1559989766999-0 HTTP/1.1" 200 -
+2019-06-08 10:29:27,048 - SurveillanceWebServer - INFO - client connected
+2019-06-08 10:29:27,048 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:27] "POST /socket.io/?EIO=3&transport=polling&t=1559989767044-1&sid=90d4db9896144b1c84f23a9c926ede53 HTTP/1.1" 200 -
+2019-06-08 10:29:27,049 - SurveillanceWebServer - INFO - Starting alarmStateThread
+2019-06-08 10:29:27,049 - SurveillanceWebServer - INFO - Starting facesUpdateThread
+2019-06-08 10:29:27,050 - SurveillanceWebServer - INFO - Starting monitoringThread
+2019-06-08 10:29:27,050 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:27] "GET /socket.io/?EIO=3&transport=polling&t=1559989767046-2&sid=90d4db9896144b1c84f23a9c926ede53 HTTP/1.1" 200 -
+2019-06-08 10:29:27,054 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:27] "GET /socket.io/?EIO=3&transport=polling&t=1559989767052-3&sid=90d4db9896144b1c84f23a9c926ede53 HTTP/1.1" 200 -
+2019-06-08 10:29:29,176 - SurveillanceWebServer - INFO - CPU Load: 5.4
+2019-06-08 10:29:29,176 - SurveillanceWebServer - INFO - System Memory Usage: 38.9
+2019-06-08 10:29:29,185 - werkzeug - INFO - 172.17.0.1 - - [08/Jun/2019 10:29:29] "GET /socket.io/?EIO=3&transport=polling&t=1559989767062-4&sid=90d4db9896144b1c84f23a9c926ede53 HTTP/1.1" 200 -
+2019-06-08 10:29:34,306 - SurveillanceWebServer - INFO - CPU Load: 1.6
+2019-06-08 10:29:34,307 - SurveillanceWebServer - INFO - System Memory Usage: 39.0
+2019-06-08 10:29:39,436 - SurveillanceWebServer - INFO - CPU Load: 2.8
+2019-06-08 10:29:39,437 - SurveillanceWebServer - INFO - System Memory Usage: 39.0
+2019-06-08 10:29:44,567 - SurveillanceWebServer - INFO - CPU Load: 5.6
+2019-06-08 10:29:44,568 - SurveillanceWebServer - INFO - System Memory Usage: 38.9
+2019-06-08 10:29:49,699 - SurveillanceWebServer - INFO - CPU Load: 8.1
+2019-06-08 10:29:49,700 - SurveillanceWebServer - INFO - System Memory Usage: 38.5
+2019-06-08 10:29:54,830 - SurveillanceWebServer - INFO - CPU Load: 2.2
+2019-06-08 10:29:54,831 - SurveillanceWebServer - INFO - System Memory Usage: 38.5
